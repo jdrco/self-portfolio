@@ -9,22 +9,22 @@ const Navbar = () => {
         </a>
       </Link>
       <div className="block justify-center mx-auto sm:mx-0">
-        <Link href="/about">
+        <Link href="/about/page">
           <a href="" className="pr-3 text-sm sm:text-md 2xl:text-lg">
             About
           </a>
         </Link>
-        <Link href="/experience">
+        <Link href="/experience/page">
           <a href="" className=" text-sm sm:text-md 2xl:text-lg">
             Experience
           </a>
         </Link>
-        <Link href="/projects">
+        <Link href="/projects/page">
           <a href="" className="pl-3 text-sm sm:text-md 2xl:text-lg">
             Projects
           </a>
         </Link>
-        <Link href="/contact">
+        <Link href="/contact/page">
           <a href="" className="pl-3 text-sm sm:text-md 2xl:text-lg">
             Contact
           </a>
