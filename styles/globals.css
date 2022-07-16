@@ -4,6 +4,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .square {
+    aspect-ratio: 1/1;
+  }
+}
+
+.card {
+  @apply rounded-xl sm:rounded-3xl shadow-lg sm:shadow-xl
+}
+
 * {
   font-family: 'Roboto';
 }
