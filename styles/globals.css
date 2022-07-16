@@ -11,7 +11,7 @@
 }
 
 .card {
-  @apply rounded-xl sm:rounded-3xl shadow-lg sm:shadow-xl
+  @apply rounded-2xl sm:rounded-3xl shadow-md sm:shadow-lg
 }
 
 * {
