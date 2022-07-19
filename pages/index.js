@@ -4,6 +4,9 @@ import styles from "../styles/Home.module.css";
 import About from "./about";
 import Experience from "../components/widgets/Experience";
 import Readme from "../components/widgets/Readme";
+import Tech from "../components/widgets/Tech";
+import Contact from "../components/widgets/Contact";
+import Projects from "../components/widgets/Projects";
 
 export default function Home() {
   return (
@@ -15,9 +18,15 @@ export default function Home() {
         <div className="card h-auto row-span-2 col-span-2">
           <Experience />
         </div>
-        <div className="card h-auto col-span-2"></div>
-        <div className="card h-auto col-span-1"></div>
-        <div className="card h-auto col-span-1"></div>
+        <div className="card h-auto col-span-2">
+          <Tech />
+        </div>
+        <div className="card h-auto col-span-1">
+          <Projects />
+        </div>
+        <div className="card h-auto col-span-1">
+          <Contact />
+        </div>
       </div>
     </div>
   );
