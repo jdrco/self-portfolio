@@ -8,30 +8,30 @@ const Projects = () => {
           <p className="">Projects</p>
         </div>
         <div className="grid grid-rows-4 grid-cols-6 gap-[2px] sm:gap-1">
-          <div className="square bg-neutral-700 rounded-sm"></div>
+          <div className="square bg-slate-700 rounded-sm"></div>
           <div className="square bg-green-700 rounded-sm"></div>
           <div className="square bg-green-400 rounded-sm"></div>
           <div className="square bg-green-800 rounded-sm"></div>
-          <div className="square bg-neutral-700 rounded-sm"></div>
+          <div className="square bg-slate-700 rounded-sm"></div>
           <div className="square bg-green-700 rounded-sm"></div>
-          <div className="square bg-neutral-700 rounded-sm"></div>
-          <div className="square bg-neutral-700 rounded-sm"></div>
+          <div className="square bg-slate-700 rounded-sm"></div>
+          <div className="square bg-slate-700 rounded-sm"></div>
           <div className="square bg-green-600 rounded-sm"></div>
-          <div className="square bg-neutral-700 rounded-sm"></div>
-          <div className="square bg-neutral-700 rounded-sm"></div>
+          <div className="square bg-slate-700 rounded-sm"></div>
+          <div className="square bg-slate-700 rounded-sm"></div>
           <div className="square bg-green-400 rounded-sm"></div>
           <div className="square bg-green-400 rounded-sm"></div>
           <div className="square bg-green-700 rounded-sm"></div>
-          <div className="square bg-neutral-700 rounded-sm"></div>
-          <div className="square bg-neutral-700 rounded-sm"></div>
+          <div className="square bg-slate-700 rounded-sm"></div>
+          <div className="square bg-slate-700 rounded-sm"></div>
           <div className="square bg-green-800 rounded-sm"></div>
-          <div className="square bg-neutral-700 rounded-sm"></div>
+          <div className="square bg-slate-700 rounded-sm"></div>
           <div className="square bg-green-700 rounded-sm"></div>
-          <div className="square bg-neutral-700 rounded-sm"></div>
-          <div className="square bg-neutral-700 rounded-sm"></div>
+          <div className="square bg-slate-700 rounded-sm"></div>
+          <div className="square bg-slate-700 rounded-sm"></div>
           <div className="square bg-green-400 rounded-sm"></div>
-          <div className="square bg-neutral-700 rounded-sm"></div>
-          <div className="square bg-neutral-700 rounded-sm"></div>
+          <div className="square bg-slate-700 rounded-sm"></div>
+          <div className="square bg-slate-700 rounded-sm"></div>
         </div>
       </div>
     </div>

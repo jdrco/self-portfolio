@@ -36,7 +36,7 @@ const Experience = () => {
           <div className="pt-1 text-white text-[8px] sm:text-sm leading-[9px] border-t-[1px] mb-1">
             <div className="flex flex-row flex-end items-end w-full">
               <p className="font-bold mr-auto">Future Creators</p>
-              <p className="">JAN - AUG 2022</p>
+              <p className="">JAN - PRESENT</p>
             </div>
             <p>Co-President</p>
             <li>C/C++, Arduino, Unity, C#, Node.js</li>
