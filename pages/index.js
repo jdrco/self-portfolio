@@ -4,7 +4,7 @@ import styles from "../styles/Home.module.css";
 import About from "./about";
 import Experience from "../components/widgets/Experience";
 import Readme from "../components/widgets/Readme";
-import Tech from "../components/widgets/Tech";
+import TechStack from "../components/widgets/TechStack";
 import Contact from "../components/widgets/Contact";
 import Projects from "../components/widgets/Projects";
 
@@ -15,16 +15,16 @@ export default function Home() {
         <div className="card h-50 row-span-2 col-span-2 square">
           <Readme />
         </div>
-        <div className="card h-auto row-span-2 col-span-2">
+        <div className="card h-auto row-span-2 col-span-2 square">
           <Experience />
         </div>
-        <div className="card h-auto col-span-2">
-          <Tech />
+        <div className="card h-auto col-span-2 bg-gradient-to-t from-[#FFFFFF] to-[#FFFFFF]">
+          <TechStack />
         </div>
-        <div className="card h-auto col-span-1">
+        <div className="card h-auto col-span-1 square">
           <Projects />
         </div>
-        <div className="card h-auto col-span-1">
+        <div className="card h-auto col-span-1 square">
           <Contact />
         </div>
       </div>
