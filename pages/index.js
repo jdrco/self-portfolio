@@ -18,7 +18,7 @@ export default function Home() {
         <div className="card h-auto row-span-2 col-span-2 square">
           <Experience />
         </div>
-        <div className="card h-auto col-span-2 bg-gradient-to-t from-[#FFFFFF] to-[#FFFFFF]">
+        <div className="card h-auto col-span-2 bg-gradient-to-t from-[#FFFFFF] to-[#FFFFFF] border-solid border-2 border-sky-500">
           <TechStack />
         </div>
         <div className="card h-auto col-span-1 square">
