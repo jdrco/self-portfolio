@@ -26,9 +26,9 @@ const Navbar = () => {
             Projects
           </a>
         </Link>
-        <Link href="/contact/">
+        <Link href="/connect/">
           <a href="" className="pl-3 text-sm sm:text-md 2xl:text-lg">
-            Contact
+            Connect
           </a>
         </Link>
       </div>

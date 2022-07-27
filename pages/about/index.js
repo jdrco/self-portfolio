@@ -5,9 +5,9 @@ const About = () => {
       <div className="rounded-lg shadow-lg bg-[#26262f] h-[30%] w-3/4 flex flex-col border-gray-300 border-[1px]">
         <div className="h-[15%] w-full flex flex-row justify-center">
           <div className="h-full w-[96%] flex flex-row items-center">
-            <div className="bg-red-500 w-[10px] sm:w-[12px] h-[10px] sm:h-[12px] rounded-full mr-1"></div>
-            <div className="bg-yellow-500 w-[10px] sm:w-[12px] h-[10px] sm:h-[12px] rounded-full mr-1"></div>
-            <div className="bg-green-500 w-[10px] sm:w-[12px] h-[10px] sm:h-[12px] rounded-full"></div>
+            <div className="bg-red-500 w-[8px] sm:w-[12px] h-[8px] sm:h-[12px] rounded-full mr-1"></div>
+            <div className="bg-yellow-500 w-[8px] sm:w-[12px] h-[8px] sm:h-[12px] rounded-full mr-1"></div>
+            <div className="bg-green-500 w-[8px] sm:w-[12px] h-[8px] sm:h-[12px] rounded-full"></div>
           </div>
         </div>
         <div className="h-full w-full p-1 text-white text-xs font-fira leading-4 overflow-auto">
