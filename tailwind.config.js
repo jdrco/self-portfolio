@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       fontFamily: {
         body: ["Roboto"],
+        fira: ["Fira Code"],
       },
     },
   },
