@@ -25,7 +25,7 @@ import { TbBrandNextjs } from "react-icons/Tb";
 const Tech = () => {
   return (
     <div className="h- overflow-auto m-2 sm:m-3">
-      <div className="grid grid-cols-2 gap-1 sm:gap-[6px] h-[67px] sm:h-[95px] md:h-[119px] overflow-auto ">
+      <div className="grid grid-cols-2 gap-1 sm:gap-[6px] h-[67px] sm:h-[95px] md:h-[119px] overflow-auto scroll scrollbar">
         <div className="bg-[#6A8E5D] min-h-[31.5px] sm:min-h-[44.5px] md:min-h-[56.5px] rounded-md sm:rounded-xl text-white flex flex-col justify-center px-1 text-[8px] sm:text-[10px] text-center font-bold">
           DEV SKILLS
         </div>

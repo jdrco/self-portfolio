@@ -10,7 +10,7 @@ const About = () => {
             <div className="bg-green-500 w-[8px] sm:w-[12px] h-[8px] sm:h-[12px] rounded-full"></div>
           </div>
         </div>
-        <div className="h-full w-full p-1 text-white text-xs font-fira leading-4 overflow-auto">
+        <div className="h-full w-full p-1 text-white text-xs font-fira leading-4 overflow-auto scroll scrollbar">
           <div className="font-fira text-white">
             <span className="text-green-400 font-fira">jareddrueco@desk:</span>
             <span className="text-blue-400 font-fira">~</span>$ cat {lessThan}{" "}

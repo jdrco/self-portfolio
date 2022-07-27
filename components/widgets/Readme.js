@@ -7,7 +7,6 @@ const Readme = () => {
         <Image src="/profilephoto.jpg" layout="fill" className="object-cover" />
       </div>
       <div className="w-[75%] h-12 ml-7 sm:ml-11 mt-4 sm:mt-7 text-[10px] sm:text-sm md:text-lg text-white leading-[11px] sm:leading-[18px] md:leading-[22px]">
-        Hi, I'm Jared! <br />
         You can click here
         <br />
         to read more about me :)
