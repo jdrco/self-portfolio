@@ -1,8 +1,8 @@
 const Experience = () => {
   return (
-    <div className="flex flex-col justify-center items-center h-96 sm:h-[545px]">
-      <div className=" h-4/5 w-[80%] flex flex-col justify-center items-center sm:w-[65%]">
-        <div className="rounded-[14px] bg-gradient-to-l from-rose-300 to-pink-500 h-1/2 m-2 w-full p-[3px] shadow-md">
+    <div className="flex flex-col justify-center items-center h-96 sm:h-[475px]">
+      <div className=" h-full w-[80%] flex flex-col justify-center items-center sm:w-[65%]">
+        <div className="rounded-[14px] bg-gradient-to-l from-rose-300 to-pink-500 h-2/5 w-full p-[3px] shadow-md">
           <div className="rounded-[12px] bg-white h-full w-full flex flex-col justify-center items-center">
             <div className="h-[85%] w-[93%] flex flex-row justify-between">
               <div className=" h-full w-1/2 flex flex-col justify-between">
@@ -35,7 +35,6 @@ const Experience = () => {
             </div>
           </div>
         </div>
-        <div className="card bg-green-500 h-1/2 m-2 w-full "></div>
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ import Footer from "./Footer";
 
 const Layout = ({ children }) => {
   return (
-    <div className="content max-w-sm sm:max-w-xl md:max-w-2xl pt-[70px] pb-[75px] sm:pt-5 sm:pb-5 flex mx-auto justify-between h-screen flex-col">
+    <div className="content max-w-sm sm:max-w-xl md:max-w-2xl flex mx-auto justify-between h-screen flex-col">
       <Navbar />
       <div>{children}</div>
       <Footer />

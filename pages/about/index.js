@@ -1,8 +1,8 @@
 const About = () => {
   const lessThan = "<";
   return (
-    <div className="flex flex-col-reverse justify-evenly items-center h-96 sm:h-[545px]">
-      <div className="rounded-lg shadow-lg bg-[#26262f] h-[30%] w-3/4 flex flex-col border-gray-300 border-[1px]">
+    <div className="flex flex-col-reverse justify-center items-center h-96 sm:h-[475px]">
+      <div className="rounded-lg shadow-lg bg-[#26262f] h-[35%] w-3/4 flex flex-col border-gray-300 border-[1px] mt-12">
         <div className="h-[15%] w-full flex flex-row justify-center">
           <div className="h-full w-[96%] flex flex-row items-center">
             <div className="bg-red-500 w-[8px] sm:w-[12px] h-[8px] sm:h-[12px] rounded-full mr-1"></div>
