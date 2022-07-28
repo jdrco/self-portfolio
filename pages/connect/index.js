@@ -14,7 +14,7 @@ const Contact = () => {
         href="mailto:jdrueco@ualberta.ca?Subject=Website%20Contact"
         target="_blank"
       >
-        <IoMailUnreadSharp className="m-3 text-4xl" />
+        <IoMailUnreadSharp className="ml-3 mr-5 text-4xl" />
       </a>
       <a href="https://github.com/jdrco" target="_blank">
         <IoLogoGithub classNazme="m-3" />
