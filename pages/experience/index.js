@@ -46,7 +46,7 @@ const Experience = () => {
                                 Developed and deployed a contract management app
                                 for a CRM/ERP system to help 15000+ users
                                 maintain their contracts and invoices within
-                                Microsoft’s Dataverse
+                                Microsoft&apos;s Dataverse
                               </div>
                             </div>
                           </div>
