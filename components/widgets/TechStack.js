@@ -19,8 +19,8 @@ import {
   SiAzuredevops,
   SiPostman,
   SiVim,
+  SiNextdotjs,
 } from "react-icons/si";
-import { TbBrandNextjs } from "react-icons/Tb";
 
 const Tech = () => {
   return (
@@ -57,7 +57,7 @@ const Tech = () => {
           <div className="text-[8px] sm:text-[10px] md:mb-1">SQL Server</div>
         </div>
         <div className="bg-[#000000] min-h-[31.5px] sm:min-h-[44.5px] md:min-h-[56.5px] rounded-md sm:rounded-xl text-white flex flex-col justify-end px-1 sm:px-2">
-          <TbBrandNextjs className="text-sm sm:text-lg" />
+          <SiNextdotjs className="text-sm sm:text-lg" />
           <div className="text-[8px] sm:text-[10px] md:mb-1">Next.js</div>
         </div>
         <div className="bg-[#444495] min-h-[31.5px] sm:min-h-[44.5px] md:min-h-[56.5px] rounded-md sm:rounded-xl text-white flex flex-col justify-end px-1 sm:px-2">
