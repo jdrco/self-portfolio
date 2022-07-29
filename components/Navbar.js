@@ -23,7 +23,7 @@ const Navbar = () => {
             href=""
             className={
               "pr-3 text-sm sm:text-md 2xl:text-lg" +
-              (currentRoute === "/about" ? " font-bold" : "font-normal")
+              (currentRoute === "/about" ? " font-bold" : " font-normal")
             }
           >
             About
@@ -34,7 +34,7 @@ const Navbar = () => {
             href=""
             className={
               "text-sm sm:text-md 2xl:text-lg" +
-              (currentRoute === "/experience" ? " font-bold" : "font-normal")
+              (currentRoute === "/experience" ? " font-bold" : " font-normal")
             }
           >
             Experience
@@ -45,7 +45,7 @@ const Navbar = () => {
             href=""
             className={
               "pl-3 text-sm sm:text-md 2xl:text-lg" +
-              (currentRoute === "/projects" ? " font-bold" : "font-normal")
+              (currentRoute === "/projects" ? " font-bold" : " font-normal")
             }
           >
             Projects
@@ -56,7 +56,7 @@ const Navbar = () => {
             href=""
             className={
               "pl-3 text-sm sm:text-md 2xl:text-lg" +
-              (currentRoute === "/connect" ? " font-bold" : "font-normal")
+              (currentRoute === "/connect" ? " font-bold" : " font-normal")
             }
           >
             Connect
