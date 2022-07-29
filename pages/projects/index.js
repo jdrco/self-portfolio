@@ -117,7 +117,8 @@ const Projects = () => {
                       </div>
                     </div>
                     <div className="flex flex-row gap-2 text-white text-3xl sm:text-5xl">
-                      <FaJsSquare />
+                      <SiCplusplus />
+                      <SiArduino />
                     </div>
                   </div>
                   <div className="bg-black h-full rounded-lg p-3 overflow-auto scroll scrollbar text-xs sm:text-sm text-white">
@@ -147,7 +148,7 @@ const Projects = () => {
                       </div>
                     </div>
                     <div className="flex flex-row gap-2 text-white text-3xl sm:text-5xl">
-                      <FaJsSquare />
+                      <FaPython />
                     </div>
                   </div>
                   <div className="bg-black h-full rounded-lg p-3 overflow-auto scroll scrollbar text-xs sm:text-sm text-white">
