@@ -155,8 +155,8 @@ const Projects = () => {
                     and the Yahoo Finance API to fetch live data.
                     <br />
                     <br />
-                    Graphically displayed a stock's moving average using NumPy
-                    and Matplotlib.
+                    Graphically displayed a stock&apos;s moving average using
+                    NumPy and Matplotlib.
                   </div>
                 </div>
               </a>
