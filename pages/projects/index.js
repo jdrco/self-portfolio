@@ -43,8 +43,6 @@ const Projects = () => {
             <SwiperSlide className="flex justify-center items-center">
               <a
                 href="https://github.com/jdrco/Courseberta"
-                target="_blank"
-                rel="noopener"
                 className="rounded-[14px] bg-gradient-to-tr from-teal-600 to-blue-800 h-[45%] sm:h-[50%] md:h-[55%] w-[80%] p-3 shadow-md"
               >
                 <div className="h-full w-full flex flex-col">
@@ -78,8 +76,6 @@ const Projects = () => {
             <SwiperSlide className="flex justify-center items-center">
               <a
                 href="https://github.com/jdrco/TileDrag"
-                target="_blank"
-                rel="noopener"
                 className="rounded-[14px] bg-gradient-to-tr from-yellow-600 to-orange-800 h-[45%] sm:h-[50%] md:h-[55%] w-[80%] p-3 shadow-md"
               >
                 <div className="h-full w-full flex flex-col">
@@ -108,8 +104,6 @@ const Projects = () => {
             <SwiperSlide className="flex justify-center items-center">
               <a
                 href="https://www.uafc.ca/projects"
-                target="_blank"
-                rel="noopener"
                 className="rounded-[14px] bg-gradient-to-tr from-violet-600 to-rose-800 h-[45%] sm:h-[50%] md:h-[55%] w-[80%] p-3 shadow-md"
               >
                 <div className="h-full w-full flex flex-col">
@@ -140,8 +134,6 @@ const Projects = () => {
             <SwiperSlide className="flex justify-center items-center">
               <a
                 href="https://github.com/jdrco/Goobers"
-                target="_blank"
-                rel="noopener"
                 className="rounded-[14px] bg-gradient-to-tr from-yellow-600 to-blue-800 h-[45%] sm:h-[50%] md:h-[55%] w-[80%] p-3 shadow-md"
               >
                 <div className="h-full w-full flex flex-col">
