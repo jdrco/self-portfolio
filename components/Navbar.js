@@ -22,7 +22,7 @@ const Navbar = () => {
           <a
             href=""
             className={
-              "pr-4 text-sm sm:text-md 2xl:text-lg" +
+              "pr-3 text-sm sm:text-md 2xl:text-lg" +
               (currentRoute === "/about" ? " font-bold" : "font-normal")
             }
           >
