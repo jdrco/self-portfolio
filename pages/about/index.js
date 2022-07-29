@@ -17,12 +17,12 @@ const About = () => {
             about.txt
           </div>
           <div className="font-fira">
-            Hi, I'm Jared! <br /> <br />
-            Currently, I'm in my third year of software engineering at the
+            Hi, I&apos;m Jared! <br /> <br />
+            Currently, I&apos;m in my third year of software engineering at the
             University of Alberta as a co-op student. <br />
             <br />I enjoy learning new technologies and building applications in
-            my free time. Outside of tech, I'll likely be playing basketball,
-            chess, or going out for a jog. <br />
+            my free time. Outside of tech, I&apos;ll likely be playing
+            basketball, chess, or going out for a jog. <br />
             <br />
             Feel free to reach out and chat!
           </div>
