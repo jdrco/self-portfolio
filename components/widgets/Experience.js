@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Experience = () => {
   return (
     <div className="bg-gradient-to-t from-rose-300 to-pink-500 h-full flex flex-col">
@@ -7,7 +9,15 @@ const Experience = () => {
             <h1 className="text-white font-medium text-[10px] sm:text-base mr-auto">
               Experience
             </h1>
-            <div className="engglogo bg-gray-300 rounded-full h-4 w-4 sm:h-5 sm:w-5"></div>
+            <div className="engglog h-4 w-4 sm:h-6 sm:w-6">
+              <Image
+                src="/eng.png"
+                layout="responsive"
+                className="object-contain w-full h-full relative"
+                width={15}
+                height={15}
+              />
+            </div>
           </div>
 
           <div className="bottomhalf flex flex-row flex-end items-end w-full">
@@ -31,7 +41,7 @@ const Experience = () => {
               <p className="">MAY - AUG 2022</p>
             </div>
             <p>Software Developer Co-op</p>
-            <li>Azure, CI/CD, AL, SQL Server, Docker, Agile</li>
+            <li>Azure, CI/CD, AL, SQL, Docker, Agile</li>
           </div>
           <div className="pt-1 text-white text-[8px] sm:text-sm leading-[9px] border-t-[1px] mb-1">
             <div className="flex flex-row flex-end items-end w-full">
