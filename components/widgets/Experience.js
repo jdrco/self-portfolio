@@ -41,7 +41,7 @@ const Experience = () => {
               <p className="">MAY - AUG 2022</p>
             </div>
             <p>Software Developer Co-op</p>
-            <li>Azure, CI/CD, AL, SQL, Docker, Agile</li>
+            <li>Azure, CI/CD, AL, SQL Server, Docker</li>
           </div>
           <div className="pt-1 text-white text-[8px] sm:text-sm leading-[9px] border-t-[1px] mb-1">
             <div className="flex flex-row flex-end items-end w-full">
