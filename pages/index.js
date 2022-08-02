@@ -1,11 +1,11 @@
-import Head from "next/head";
-import Experience from "../components/widgets/Experience";
-import Readme from "../components/widgets/Readme";
-import TechStack from "../components/widgets/TechStack";
-import Contact from "../components/widgets/Contact";
-import Projects from "../components/widgets/Projects";
+import Head from 'next/head';
+import Experience from '../components/widgets/Experience';
+import Readme from '../components/widgets/Readme';
+import TechStack from '../components/widgets/TechStack';
+import Contact from '../components/widgets/Contact';
+import Projects from '../components/widgets/Projects';
 
-import Link from "next/link";
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -13,6 +13,12 @@ export default function Home() {
       <Head>
         <title>Jared Drueco | Home</title>
         <meta name="keywords" content="Jared, Drueco" />
+        <meta
+          name="description"
+          content="Hi, I'm Jared!
+              Currently, I'm in my third year of software engineering at
+              the University of Alberta as a co-op student."
+        />
       </Head>
       <div className="meat flex items-center flex-col">
         <div className="grid grid-cols-4 grid-rows-3 gap-3 sm:gap-7 w-full">
