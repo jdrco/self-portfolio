@@ -1,13 +1,13 @@
-import Head from "next/head";
+import Head from 'next/head';
 
 // Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
-import "swiper/css";
-import "swiper/css/navigation";
+import 'swiper/css';
+import 'swiper/css/navigation';
 
-import { Navigation } from "swiper";
+import { Navigation } from 'swiper';
 
 import {
   FaPython,
@@ -21,7 +21,7 @@ import {
   FaLinux,
   FaDocker,
   FaJsSquare,
-} from "react-icons/fa";
+} from 'react-icons/fa';
 import {
   SiJavascript,
   SiCplusplus,
@@ -32,9 +32,10 @@ import {
   SiPostman,
   SiVim,
   SiArduino,
-} from "react-icons/si";
+  SiNextdotjs,
+} from 'react-icons/si';
 
-import Link from "next/link";
+import Link from 'next/link';
 
 const Projects = () => {
   return (
@@ -47,6 +48,37 @@ const Projects = () => {
         <div className=" h-full w-full flex flex-col justify-center items-center">
           <div className="w-full h-full">
             <Swiper navigation={true} modules={[Navigation]} className="h-full">
+              <SwiperSlide className="flex justify-center items-center">
+                <a
+                  href="https://github.com/jdrco/self-portfolio"
+                  className="rounded-[14px] bg-gradient-to-tr from-rose-600 to-pink-800 h-[45%] sm:h-[50%] md:h-[55%] w-[80%] p-3 shadow-md"
+                >
+                  <div className="h-full w-full flex flex-col">
+                    <div className="w-full h-auto flex flex-row justify-between mb-2">
+                      <div className="flex flex-col text-white text-sm sm:text-[20px]">
+                        <div className="leading-3 sm:leading-6">
+                          Personal Website
+                        </div>
+                        <div className="text-[10px] sm:text-[12px]">
+                          Web Portfolio
+                        </div>
+                      </div>
+                      <div className="flex flex-row gap-2 text-white text-3xl sm:text-5xl">
+                        <SiJavascript />
+                        <SiNextdotjs />
+                        <SiTailwindcss />
+                      </div>
+                    </div>
+                    <div className="bg-black h-full rounded-lg p-3 overflow-auto scroll scrollbar text-xs sm:text-sm text-white">
+                      This is very site is my own web portfolio, coded by me!{' '}
+                      <br />
+                      <br />
+                      Built this frontend project using Next.js and Tailwind
+                      CSS.
+                    </div>
+                  </div>
+                </a>
+              </SwiperSlide>
               <SwiperSlide className="flex justify-center items-center">
                 <a
                   href="https://github.com/jdrco/Courseberta"
@@ -70,7 +102,7 @@ const Projects = () => {
                     </div>
                     <div className="bg-black h-full rounded-lg p-3 overflow-auto scroll scrollbar text-xs sm:text-sm text-white">
                       Co-developed a web app with a team of 5 that allows
-                      students to exchange thoughts on university courses.{" "}
+                      students to exchange thoughts on university courses.{' '}
                       <br />
                       <br />
                       Designed and built the frontend using Figma, HTML/CSS,
