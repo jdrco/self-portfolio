@@ -74,7 +74,8 @@ const Projects = () => {
                       <br />
                       <br />
                       Built this frontend project using Next.js and Tailwind
-                      CSS.
+                      CSS. You can click on each of the project cards to view
+                      the source code.
                     </div>
                   </div>
                 </a>
