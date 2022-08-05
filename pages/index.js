@@ -10,16 +10,6 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>Jared Drueco | Home</title>
-        <meta name="keywords" content="Jared, Drueco" />
-        <meta
-          name="description"
-          content="Hi, I'm Jared!
-              Currently, I'm in my third year of software engineering at
-              the University of Alberta as a co-op student."
-        />
-      </Head>
       <div className="meat flex items-center flex-col">
         <div className="grid grid-cols-4 grid-rows-3 gap-3 sm:gap-7 w-full">
           <div className="card h-50 row-span-2 col-span-2 square">
