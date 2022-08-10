@@ -70,12 +70,11 @@ const Projects = () => {
                       </div>
                     </div>
                     <div className="bg-black h-full rounded-lg p-3 overflow-auto scroll scrollbar text-xs sm:text-sm text-white">
-                      This is very site is my own web portfolio, coded by me!{' '}
+                      This very site is my own web portfolio, coded by me!{' '}
                       <br />
-                      <br />
-                      Built this frontend project using Next.js and Tailwind
-                      CSS. You can click on each of the project cards to view
-                      the source code.
+                      <br />I built this using Next.js and Tailwind CSS. You can
+                      click on each of the project cards to view the source
+                      code.
                     </div>
                   </div>
                 </a>
