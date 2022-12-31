@@ -13,7 +13,7 @@ const Experience = () => {
               <Image
                 src="/eng.png"
                 layout="responsive"
-                className="object-contain w-full h-full relative"
+                className="object-contain w-full h-full relative invert"
                 width={15}
                 height={15}
               />
@@ -35,21 +35,26 @@ const Experience = () => {
           </div>
         </div>
         <div className="experiences h-auto">
-          <div className="pt-1 text-white text-[8px] sm:text-sm leading-[9px] border-t-[1px] mb-4">
+          <div className="pt-1 text-white text-[8px] sm:text-sm leading-[9px] border-t-[1px] mb-2 sm:mb-3">
             <div className="flex flex-row flex-end items-end w-full">
-              <p className="font-bold mr-auto">Geoson Solutions</p>
-              <p className="">MAY - AUG 2022</p>
+              <p className="font-bold mr-auto">InsideDesk</p>
+              <p className="">Jan 2023 - Present</p>
             </div>
             <p>Software Developer Co-op</p>
-            <li>Azure, CI/CD, AL, SQL Server, Docker</li>
+          </div>
+          <div className="pt-1 text-white text-[8px] sm:text-sm leading-[9px] border-t-[1px] mb-2 sm:mb-3">
+            <div className="flex flex-row flex-end items-end w-full">
+              <p className="font-bold mr-auto">Geoson Solutions</p>
+              <p className="">May - Dec 2022</p>
+            </div>
+            <p>Software Developer Co-op</p>
           </div>
           <div className="pt-1 text-white text-[8px] sm:text-sm leading-[9px] border-t-[1px] mb-1">
             <div className="flex flex-row flex-end items-end w-full">
               <p className="font-bold mr-auto">Future Creators</p>
-              <p className="">JAN - PRESENT</p>
+              <p className="">Aug 2021 - Present</p>
             </div>
             <p>Co-President</p>
-            <li>C/C++, Arduino, Unity, C#, Node.js</li>
           </div>
         </div>
       </div>

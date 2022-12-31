@@ -59,7 +59,7 @@ const Navbar = () => {
               (currentRoute === "/connect" ? " font-bold" : " font-normal")
             }
           >
-            Connect
+            Contact
           </a>
         </Link>
       </div>

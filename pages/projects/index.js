@@ -1,13 +1,13 @@
-import Head from 'next/head';
+import Head from "next/head";
 
 // Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
+import "swiper/css";
+import "swiper/css/navigation";
 
-import { Navigation } from 'swiper';
+import { Navigation } from "swiper";
 
 import {
   FaPython,
@@ -21,7 +21,7 @@ import {
   FaLinux,
   FaDocker,
   FaJsSquare,
-} from 'react-icons/fa';
+} from "react-icons/fa";
 import {
   SiJavascript,
   SiCplusplus,
@@ -33,9 +33,9 @@ import {
   SiVim,
   SiArduino,
   SiNextdotjs,
-} from 'react-icons/si';
+} from "react-icons/si";
 
-import Link from 'next/link';
+import Link from "next/link";
 
 const Projects = () => {
   return (
@@ -51,7 +51,7 @@ const Projects = () => {
               <SwiperSlide className="flex justify-center items-center">
                 <a
                   href="https://github.com/jdrco/self-portfolio"
-                  className="rounded-[14px] bg-gradient-to-tr from-rose-600 to-pink-800 h-[45%] sm:h-[50%] md:h-[55%] w-[80%] p-3 shadow-md"
+                  className="rounded-[14px] bg-gradient-to-tr from-rose-600 to-pink-800 h-[45%] sm:h-[50%] md:h-[55%] w-[80%] p-2 sm:p-3 shadow-md"
                 >
                   <div className="h-full w-full flex flex-col">
                     <div className="w-full h-auto flex flex-row justify-between mb-2">
@@ -70,7 +70,7 @@ const Projects = () => {
                       </div>
                     </div>
                     <div className="bg-black h-full rounded-lg p-3 overflow-auto scroll scrollbar text-xs sm:text-sm text-white">
-                      This very site is my own web portfolio, coded by me!{' '}
+                      This very site is my own web portfolio, coded by me!{" "}
                       <br />
                       <br />I built this using Next.js and Tailwind CSS. You can
                       click on each of the project cards to view the source
@@ -82,7 +82,7 @@ const Projects = () => {
               <SwiperSlide className="flex justify-center items-center">
                 <a
                   href="https://github.com/jdrco/Courseberta"
-                  className="rounded-[14px] bg-gradient-to-tr from-teal-600 to-blue-800 h-[45%] sm:h-[50%] md:h-[55%] w-[80%] p-3 shadow-md"
+                  className="rounded-[14px] bg-gradient-to-tr from-teal-600 to-blue-800 h-[45%] sm:h-[50%] md:h-[55%] w-[80%] p-2 sm:p-3 shadow-md"
                 >
                   <div className="h-full w-full flex flex-col">
                     <div className="w-full h-auto flex flex-row justify-between mb-2">
@@ -102,7 +102,7 @@ const Projects = () => {
                     </div>
                     <div className="bg-black h-full rounded-lg p-3 overflow-auto scroll scrollbar text-xs sm:text-sm text-white">
                       Co-developed a web app with a team of 5 that allows
-                      students to exchange thoughts on university courses.{' '}
+                      students to exchange thoughts on university courses.{" "}
                       <br />
                       <br />
                       Designed and built the frontend using Figma, HTML/CSS,
@@ -118,7 +118,7 @@ const Projects = () => {
               <SwiperSlide className="flex justify-center items-center">
                 <a
                   href="https://github.com/jdrco/TileDrag"
-                  className="rounded-[14px] bg-gradient-to-tr from-yellow-600 to-orange-800 h-[45%] sm:h-[50%] md:h-[55%] w-[80%] p-3 shadow-md"
+                  className="rounded-[14px] bg-gradient-to-tr from-yellow-600 to-orange-800 h-[45%] sm:h-[50%] md:h-[55%] w-[80%] p-2 sm:p-3 shadow-md"
                 >
                   <div className="h-full w-full flex flex-col">
                     <div className="w-full h-auto flex flex-row justify-between mb-2">
@@ -146,7 +146,7 @@ const Projects = () => {
               <SwiperSlide className="flex justify-center items-center">
                 <a
                   href="https://www.uafc.ca/projects"
-                  className="rounded-[14px] bg-gradient-to-tr from-violet-600 to-rose-800 h-[45%] sm:h-[50%] md:h-[55%] w-[80%] p-3 shadow-md"
+                  className="rounded-[14px] bg-gradient-to-tr from-violet-600 to-rose-800 h-[45%] sm:h-[50%] md:h-[55%] w-[80%] p-2 sm:p-3 shadow-md"
                 >
                   <div className="h-full w-full flex flex-col">
                     <div className="w-full h-auto flex flex-row justify-between mb-2">
@@ -177,7 +177,7 @@ const Projects = () => {
               <SwiperSlide className="flex justify-center items-center">
                 <a
                   href="https://github.com/jdrco/Goobers"
-                  className="rounded-[14px] bg-gradient-to-tr from-yellow-600 to-blue-800 h-[45%] sm:h-[50%] md:h-[55%] w-[80%] p-3 shadow-md"
+                  className="rounded-[14px] bg-gradient-to-tr from-yellow-600 to-blue-800 h-[45%] sm:h-[50%] md:h-[55%] w-[80%] p-2 sm:p-3 shadow-md"
                 >
                   <div className="h-full w-full flex flex-col">
                     <div className="w-full h-auto flex flex-row justify-between mb-2">
@@ -194,8 +194,8 @@ const Projects = () => {
                       </div>
                     </div>
                     <div className="bg-black h-full rounded-lg p-3 overflow-auto scroll scrollbar text-xs sm:text-sm text-white">
-                      Developeped a stock analyzer using Python for data
-                      analysis and the Yahoo Finance API to fetch live data.
+                      Developed a stock analyzer using Python for data analysis
+                      and the Yahoo Finance API to fetch live data.
                       <br />
                       <br />
                       Graphically displayed a stock&apos;s moving average using
