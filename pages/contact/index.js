@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     <>
       <Head>
-        <title>Jared Drueco | Connect</title>
+        <title>Jared Drueco | Contact</title>
         <meta name="keywords" content="connect, contact" />
       </Head>
       <div className="flex flex-row justify-center items-center text-3xl">

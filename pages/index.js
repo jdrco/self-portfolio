@@ -37,7 +37,7 @@ export default function Home() {
             </Link>
           </div>
           <div className="card h-auto col-span-1 square">
-            <Link href="/connect">
+            <Link href="/contact">
               <a className="h-full">
                 <Contact />
               </a>
