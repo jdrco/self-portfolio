@@ -17,10 +17,10 @@ export default function Home() {
               <Readme />
             </div>
           </div>
-          <div className="card bg-gradient-to-br from-rose-100 to-teal-100 h-96 w-full sm:w-3/5 sm:h-[30rem]">
+          <div className="card bg-gradient-to-br from-rose-100 to-teal-100 w-full sm:w-3/5 sm:h-[30rem]">
             <Link href="/experience">
               <a className="h-full">
-                <Experience />{' '}
+                <Experience />
               </a>
             </Link>
           </div>

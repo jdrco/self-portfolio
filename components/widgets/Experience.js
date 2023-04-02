@@ -1,63 +1,31 @@
-import Image from "next/image";
+import Image from 'next/image';
+import { HiOutlineArrowNarrowRight } from 'react-icons/hi';
+import Link from 'next/link';
 
 const Experience = () => {
   return (
-    <div className="h-full flex flex-col">
-      <div className="my-2 mx-3 flex flex-col justify-between h-full">
-        <div className="header flex flex-col mb-1">
-          <div className="tophalf flex flex-row flex-end items-end w-full">
-            <h1 className="text-black font-medium text-[10px] sm:text-base mr-auto">
-              Experience
-            </h1>
-            <div className="engglog h-4 w-4 sm:h-6 sm:w-6">
-              <Image
-                src="/eng.png"
-                layout="responsive"
-                className="object-contain w-full h-full relative"
-                width={15}
-                height={15}
-              />
-            </div>
-          </div>
-
-          <div className="bottomhalf flex flex-row flex-end items-end w-full">
-            <div className="text-black font-light text-2xl sm:text-3xl leading-5 sm:leading-6 mr-auto">
-              3<span className="text-sm sm:text-[12px]">rd year</span>
-            </div>
-            <div className="edu flex flex-col items-end w-auto h-auto">
-              <p className="text-black text-sm sm:text-xs leading-[8px]">
-                UAlberta
-              </p>
-              <p className="text-black text-sm sm:text-xs leading-3">
-                Software Engineering
-              </p>
-            </div>
-          </div>
-        </div>
-        <div className="experiences h-auto">
-          <div className="pt-1 text-black text-sm sm:text-sm leading-[9px] border-t-[1px] border-black mb-2 sm:mb-3">
-            <div className="flex flex-row flex-end items-end w-full">
-              <p className="font-bold mr-auto">InsideDesk</p>
-              <p className="">Jan 2023 - Present</p>
-            </div>
-            <p>Software Developer Co-op</p>
-          </div>
-          <div className="pt-1 text-black text-sm sm:text-sm leading-[9px] border-t-[1px] border-black mb-2 sm:mb-3">
-            <div className="flex flex-row flex-end items-end w-full">
-              <p className="font-bold mr-auto">Geoson Solutions</p>
-              <p className="">May - Dec 2022</p>
-            </div>
-            <p>Software Developer Co-op</p>
-          </div>
-          <div className="pt-1 text-black text-sm sm:text-sm leading-[9px] border-t-[1px] border-black mb-1">
-            <div className="flex flex-row flex-end items-end w-full">
-              <p className="font-bold mr-auto">Future Creators</p>
-              <p className="">Aug 2021 - Present</p>
-            </div>
-            <p>Co-President</p>
-          </div>
+    <div className="h-full flex flex-col p-8">
+      <div className="text-3xl font-light sm:text-4xl">
+        3RD YEAR <br></br>UOFA SOFTWARE ENGINEERING
+      </div>
+      <div className="text-base mt-5 leading-5 font-light w-[85%] sm:text-lg sm:leading-6">
+        I am an aspiring software engineer focused on creating meaningful impact
+        through co-op work terms and leadership opportunites
+      </div>
+      <div className="text-2xl mt-5">BACKGROUND</div>
+      <div className="flex flex-col">
+        <div className="w-1/2 flex pt-1 font-light border-t-[1px] border-black leading-5">
+          <div className="h-full w-1/2">InsideDesk</div>
+          <div className="h-full w-1/2 text-right">Software Dev Co-op</div>
         </div>
       </div>
+      <Link href="/about">
+        <button className="absolute h-12 w-12 bottom-6 right-6 bg-black bg-opacity-50 backdrop-blur-2xl rounded-full">
+          <div className="flex items-center justify-center invert">
+            <HiOutlineArrowNarrowRight />
+          </div>
+        </button>
+      </Link>
     </div>
   );
 };
