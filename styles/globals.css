@@ -44,7 +44,7 @@
 }
 
 .card {
-  @apply rounded-2xl sm:rounded-3xl shadow-md sm:shadow-lg overflow-hidden
+  @apply rounded-2xl sm:rounded-3xl overflow-hidden
 }
 
 * {

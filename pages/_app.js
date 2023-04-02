@@ -11,9 +11,10 @@ function MyApp({ Component, pageProps }) {
         <meta
           name="description"
           content="Hi, I'm Jared!
-              Currently, I'm in my third year of software engineering at
-              the University of Alberta as a co-op student."
+              Currently, studying software engineering at
+              the University of Alberta."
         />
+        <link rel="shortcut icon" href="/bear.png" />
       </Head>
       <Layout>
         <Component {...pageProps} />

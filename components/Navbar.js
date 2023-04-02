@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { useRouter } from 'next/router';
 import { useState } from 'react';
 
@@ -10,8 +11,14 @@ const Navbar = () => {
   return (
     <div className="my-2">
       <div className="flex justify-between items-center">
-        <div className="flex items-center h-full">
-          <div className="h-5 w-5 rounded-full bg-red-800 mx-2"></div>
+        <div className="flex items-center gap-2 h-full ml-2">
+          <Image
+            src="/bear.png"
+            // layout="responsive"
+            className="mx-2 object-contain w-full h-full relative"
+            width={25}
+            height={25}
+          />
           <Link href="/">
             <a className="text-black font-medium">Home</a>
           </Link>
@@ -22,7 +29,9 @@ const Navbar = () => {
               <a
                 className={
                   ' px-3 py-2 rounded-md  font-medium' +
-                  (currentRoute === '/about' ? ' text-red-800' : ' text-gray-500')
+                  (currentRoute === '/about'
+                    ? ' text-red-800'
+                    : ' text-gray-600')
                 }
               >
                 About
@@ -32,7 +41,9 @@ const Navbar = () => {
               <a
                 className={
                   ' px-3 py-2 rounded-md  font-medium' +
-                  (currentRoute === '/experience' ? ' text-red-800' : ' text-gray-500')
+                  (currentRoute === '/experience'
+                    ? ' text-red-800'
+                    : ' text-gray-600')
                 }
               >
                 Experience
@@ -42,7 +53,9 @@ const Navbar = () => {
               <a
                 className={
                   ' px-3 py-2 rounded-md  font-medium' +
-                  (currentRoute === '/projects' ? ' text-red-800' : ' text-gray-500')
+                  (currentRoute === '/projects'
+                    ? ' text-red-800'
+                    : ' text-gray-600')
                 }
               >
                 Projects
@@ -52,7 +65,9 @@ const Navbar = () => {
               <a
                 className={
                   ' px-3 py-2 rounded-md  font-medium' +
-                  (currentRoute === '/contact' ? ' text-red-800' : ' text-gray-500')
+                  (currentRoute === '/contact'
+                    ? ' text-red-800'
+                    : ' text-gray-600')
                 }
               >
                 Contact
