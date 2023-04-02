@@ -11,16 +11,17 @@ export default function Home() {
   return (
     <>
       <div className="meat flex flex-col h-screen w-full gap-5">
-
         <div className="flex flex-col sm:flex-row gap-5 w-full">
-          <div className="card bg-red-400 w-full aspect-square sm:w-2/5 sm:h-[30rem]">
-            <Link href="/about">
-              <a className="h-full"><Readme /></a>
-            </Link>
+          <div className="card bg-red-400 w-full sm:w-2/5 h-[30rem]">
+            <div className="h-full">
+              <Readme />
+            </div>
           </div>
-          <div className="card bg-gradient-to-br from-rose-100 to-teal-100 aspect-square w-full sm:w-3/5 sm:h-[30rem]">
+          <div className="card bg-gradient-to-br from-rose-100 to-teal-100 h-96 w-full sm:w-3/5 sm:h-[30rem]">
             <Link href="/experience">
-              <a className="h-full">{/* <Experience /> */}</a>
+              <a className="h-full">
+                <Experience />{' '}
+              </a>
             </Link>
           </div>
         </div>
@@ -33,11 +34,10 @@ export default function Home() {
           </div>
           <div className="card bg-yellow-200 aspect-square w-full">
             <Link href="/experience">
-            <a className="h-full">{/* <Contact /> */}</a>
+              <a className="h-full">{/* <Contact /> */}</a>
             </Link>
           </div>
         </div>
-
       </div>
     </>
   );

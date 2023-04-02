@@ -1,14 +1,20 @@
-import Image from "next/image";
+import Image from 'next/image';
+import { ImArrowRight2 } from 'react-icons/im';
+
+import Link from 'next/link';
 
 const Readme = () => {
   return (
-    <div className="bg-gradient-to-b from-gray-900 to-gray-600 h-full flex flex-col">
-      {/* <div className="w-[42%] h-[42%] rounded-full ml-7 sm:ml-11 mt-6 sm:mt-10 overflow-hidden relative"> */}
-        <Image src="/photo.jpg" layout="fill" className="object-cover" />
-      {/* </div> */}
-      {/* <div className="w-[75%] h-12 ml-8 sm:ml-12 md:ml-[50px] mt-4 sm:mt-7 text-[9px] sm:text-sm md:text-base text-white leading-[11px] sm:leading-[18px] md:leading-[22px]">
-        README
-      </div> */}
+    <div className="flex flex-col">
+      <Image src="/photo.jpg" layout="fill" className="object-cover" />
+      <div className="absolute top-6 left-6 text-black font-thin">README</div>
+      <Link href="/about">
+        <button className="absolute h-12 w-12 bottom-6 right-6 bg-white bg-opacity-20 backdrop-blur-2xl rounded-full">
+          <div className="flex items-center justify-center">
+            <ImArrowRight2 />
+          </div>
+        </button>
+      </Link>
     </div>
   );
 };
