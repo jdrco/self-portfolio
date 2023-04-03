@@ -44,6 +44,11 @@ export default function Home() {
             </Link>
           </div>
         </div>
+
+        {/* padding */}
+        <div className="flex flex-col sm:flex-row gap-5 w-full">
+          <div className="card h-1 w-full bg-white"></div>
+        </div>
       </div>
     </>
   );
