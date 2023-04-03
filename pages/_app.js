@@ -4,7 +4,7 @@ import Head from 'next/head';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <>
+    <div>
       <Head>
         <title>Jared Drueco | Home</title>
         <meta name="keywords" content="Jared, Drueco" />
@@ -19,7 +19,7 @@ function MyApp({ Component, pageProps }) {
       <Layout>
         <Component {...pageProps} />
       </Layout>
-    </>
+    </div>
   );
 }
 
