@@ -7,7 +7,7 @@ const Readme = () => {
   return (
     <div className="flex flex-col">
       <Image src="/photo.jpg" layout="fill" className="object-cover" />
-      <div className="absolute top-6 left-6 text-black text-base font-thin sm:text-lg">
+      <div className="absolute top-6 left-6 text-black text-base font-thin sm:font-light sm:text-lg">
         README
       </div>
       <Link href="/about">

@@ -31,7 +31,7 @@ const Experience = () => {
           </div>
         </div>
       </div>
-      <Link href="/about">
+      <Link href="/experience">
         <button className="absolute h-12 w-12 bottom-6 right-6 bg-black bg-opacity-50 backdrop-blur-2xl rounded-full">
           <div className="flex items-center justify-center invert">
             <HiOutlineArrowNarrowRight />

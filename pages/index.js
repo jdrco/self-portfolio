@@ -25,20 +25,20 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col sm:flex-row gap-5 w-full">
+          <div className="card w-full aspect-square border-2 border-black">
+            <a className="h-full">
+              <TechStack />
+            </a>
+          </div>
           <div className="card bg-green-200 w-full aspect-square">
             <a className="h-full">
               <Projects />
             </a>
           </div>
-          <div className="card bg-yellow-200 aspect-square w-full">
-            <Link href="/experience">
-              <a className="h-full">{/* <Contact /> */}</a>
-            </Link>
-          </div>
         </div>
 
         <div className="flex flex-col sm:flex-row gap-5 w-full">
-          <div className="card h-96 w-full bg-gradient-to-r from-slate-200 to-pink-100">
+          <div className="card h-96 w-full bg-gradient-to-r from-slate-200 to-pink-100 mb-5">
             <Link href="/experience">
               <a className="h-full">{/* <Contact /> */}</a>
             </Link>
@@ -46,9 +46,9 @@ export default function Home() {
         </div>
 
         {/* padding */}
-        <div className="flex flex-col sm:flex-row gap-5 w-full">
+        {/* <div className="flex flex-col sm:flex-row gap-5 w-full">
           <div className="card h-1 w-full bg-white"></div>
-        </div>
+        </div> */}
       </div>
     </>
   );
