@@ -12,7 +12,7 @@ export default function Home() {
     <>
       <div className="meat flex flex-col h-screen w-full gap-5 ">
         <div className="flex flex-col sm:flex-row gap-5 w-full">
-          <div className="card bg-red-400 w-full sm:w-2/5 h-[30rem]">
+          <div className="card bg-red-400 w-full aspect-square sm:w-2/5 sm:h-[30rem]">
             <div className="h-full">
               <Readme />
             </div>
@@ -38,17 +38,14 @@ export default function Home() {
         </div>
 
         <div className="flex flex-col sm:flex-row gap-5 w-full">
-          <div className="card h-96 w-full bg-gradient-to-r from-slate-200 to-pink-100 mb-5">
+          {/* <div className="card h-96 w-full bg-gradient-to-r from-slate-200 to-pink-100 mb-5"> */}
+          <div className="card h-96 w-full bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-sky-500 via-orange-200 to-yellow-600 mb-5">
             <Link href="/experience">
-              <a className="h-full">{/* <Contact /> */}</a>
+              <a className="h-full"><Contact /></a>
             </Link>
           </div>
         </div>
 
-        {/* padding */}
-        {/* <div className="flex flex-col sm:flex-row gap-5 w-full">
-          <div className="card h-1 w-full bg-white"></div>
-        </div> */}
       </div>
     </>
   );

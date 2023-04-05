@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <div className="flex flex-col">
       <Image src="/projects.png" layout="fill" className="object-cover" />
-      <div className="absolute top-6 left-6 text-black text-base font-thin sm:font-light sm:text-lg">
+      <div className="absolute top-6 left-6 text-black text-xl font-light sm:text-2xl">
         PROJECTS
       </div>
       <Link href="/projects">

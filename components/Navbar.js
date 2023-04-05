@@ -61,18 +61,6 @@ const Navbar = () => {
                 Projects
               </a>
             </Link>
-            <Link href="/contact">
-              <a
-                className={
-                  ' px-3 py-2 rounded-md  font-medium' +
-                  (currentRoute === '/contact'
-                    ? ' text-red-800'
-                    : ' text-gray-600')
-                }
-              >
-                Contact
-              </a>
-            </Link>
           </div>
         </div>
         <div className="-mr-2 flex md:hidden">
@@ -128,11 +116,6 @@ const Navbar = () => {
           <Link href="/projects">
             <a className="text-right hover:text block px-3 py-2 rounded-md text-base font-medium">
               Projects
-            </a>
-          </Link>
-          <Link href="/contact">
-            <a className="text-right block px-3 py-2 rounded-md text-base font-medium">
-              Contact
             </a>
           </Link>
         </div>

@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import { HiOutlineArrowNarrowRight } from 'react-icons/hi';
 import Link from 'next/link';
 

@@ -6,13 +6,10 @@ import Image from 'next/image';
 const TechStack = () => {
   return (
     <div className="flex flex-row bg-white h-full w-full justify-center items-center">
-      {/* <div className="w-2/3 h-2/3 bg-blue-300">
-        <Image src="/techstack.png" layout="fill" className='object-contain' />
-      </div> */}
       <div className="relative inline-block w-3/4 h-3/4 bg-white">
         <Image src="/techstack.png" layout="fill" className="object-cover transform rotate-180" />
       </div>
-      <div className="absolute top-6 left-6 text-black text-base font-thin sm:font-light sm:text-lg">
+      <div className="absolute top-6 left-6 text-black text-xl font-light sm:text-2xl">
         TECH STACK
       </div>
 

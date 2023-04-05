@@ -1,12 +1,25 @@
+import {
+  IoLogoLinkedin,
+  IoMailUnreadSharp,
+  IoLogoGithub,
+} from "react-icons/io5";
+import Link from 'next/link';
+
 const Contact = () => {
   return (
-    <div className="bg-gradient-to-r from-slate-800 to-slate-700 h-full flex flex-col justify-center items-center">
-      {/* <div className=" mb-1 w-1/2 h-1/2 rounded-full flex justify-center items-center"> */}
-      <div className="text-white text-4xl sm:text-5xl md:text-6xl h-1/2 flex text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-        @
+    <div className="h-full flex flex-col p-10 justify-center items-center font-light">
+      {/* <p className="text-3xl sm:text-6xl text-white">Contact Me</p> */}
+      <div className="flex flex-row justify-center items-center text-4xl text-red-500">
+        <Link href="https://www.linkedin.com/in/jareddrueco/">
+          <IoLogoLinkedin className="m-3" />
+        </Link>
+        <Link href="mailto:jdrueco@ualberta.ca?Subject=Website%20Contact">
+          <IoMailUnreadSharp className="ml-3 mr-5 text-5xl"  />
+        </Link>
+        <Link href="https://github.com/jdrco">
+          <IoLogoGithub classNazme="m-3" />
+        </Link>
       </div>
-      {/* </div> */}
-      <p className="font-medium pt- text-xs sm:text-lg text-white">Contact</p>
     </div>
   );
 };
