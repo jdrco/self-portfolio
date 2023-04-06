@@ -17,7 +17,7 @@ const Contact = () => {
           <IoMailUnreadSharp className="ml-3 mr-5 text-5xl"  />
         </Link>
         <Link href="https://github.com/jdrco">
-          <IoLogoGithub classNazme="m-3" />
+          <IoLogoGithub />
         </Link>
       </div>
     </div>

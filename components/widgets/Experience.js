@@ -9,7 +9,7 @@ const Experience = () => {
       </div>
       <div className="text-sm mt-5 sm:mt-10 leading-4 font-light w-[85%] sm:text-base sm:leading-5">
         I am an aspiring software engineer focused on creating meaningful impact
-        through co-op work terms and leadership opportunites
+        through software development and leadership opportunites
       </div>
       <div className="text-3xl sm:text-4xl font-light mt-5 sm:mt-10">
         MY BACKGROUND
@@ -26,7 +26,7 @@ const Experience = () => {
         <div className="sm:w-1/2 flex flex-col pt-1 font-light border-t-[1px] border-gray-400 leading-5">
           <div className="text-xl sm:text-2xl">EXPERIENCE</div>
           <div className="text-sm leading-4 sm:text-base sm:leading-5">
-            I have completed 3 of 5 work terms as a Software Developer Co-op
+            I have completed 2 of 5 co-op work terms in software development
           </div>
         </div>
       </div>

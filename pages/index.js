@@ -40,12 +40,11 @@ export default function Home() {
         <div className="flex flex-col sm:flex-row gap-5 w-full">
           {/* <div className="card h-96 w-full bg-gradient-to-r from-slate-200 to-pink-100 mb-5"> */}
           <div className="card h-96 w-full bg-[conic-gradient(at_top,_var(--tw-gradient-stops))] from-sky-500 via-orange-200 to-yellow-600 mb-5">
-            <Link href="/experience">
-              <a className="h-full"><Contact /></a>
-            </Link>
+            <a className="h-full">
+              <Contact />
+            </a>
           </div>
         </div>
-
       </div>
     </>
   );

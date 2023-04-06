@@ -49,6 +49,18 @@ const Navbar = () => {
                 Experience
               </a>
             </Link>
+            <Link href="/skills">
+              <a
+                className={
+                  ' px-3 py-2 rounded-md  font-medium' +
+                  (currentRoute === '/skills'
+                    ? ' text-red-800'
+                    : ' text-gray-600')
+                }
+              >
+                Skills
+              </a>
+            </Link>
             <Link href="/projects">
               <a
                 className={
@@ -111,6 +123,11 @@ const Navbar = () => {
           <Link href="/experience">
             <a className="text-right block px-3 py-2 rounded-md text-base font-medium">
               Experience
+            </a>
+          </Link>
+          <Link href="/skills">
+            <a className="text-right block px-3 py-2 rounded-md text-base font-medium">
+              Skills
             </a>
           </Link>
           <Link href="/projects">

@@ -12,8 +12,7 @@ const TechStack = () => {
       <div className="absolute top-6 left-6 text-black text-xl font-light sm:text-2xl">
         TECH STACK
       </div>
-
-      <Link href="/projects">
+      <Link href="/skills">
         <button className="absolute h-12 w-12 bottom-6 right-6 bg-black rounded-full">
           <div className="flex items-center justify-center">
             <HiOutlineArrowNarrowRight className="invert" />
