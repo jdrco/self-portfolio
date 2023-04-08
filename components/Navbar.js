@@ -25,18 +25,6 @@ const Navbar = () => {
         </div>
         <div className="hidden md:block">
           <div className="ml-10 flex items-baseline space-x-4">
-            <Link href="/about">
-              <a
-                className={
-                  ' px-3 py-2 rounded-md  font-medium' +
-                  (currentRoute === '/about'
-                    ? ' text-red-800'
-                    : ' text-gray-600')
-                }
-              >
-                About
-              </a>
-            </Link>
             <Link href="/experience">
               <a
                 className={
@@ -115,11 +103,6 @@ const Navbar = () => {
 
       <div className={`${isOpen ? 'block' : 'hidden'} md:hidden w-1/2 ml-auto `}>
         <div className="px-2 pt-2 pb-3 sm:px-3">
-          <Link href="/about">
-            <a className="text-right block px-3 py-2 rounded-md text-base font-medium">
-              About
-            </a>
-          </Link>
           <Link href="/experience">
             <a className="text-right block px-3 py-2 rounded-md text-base font-medium">
               Experience
