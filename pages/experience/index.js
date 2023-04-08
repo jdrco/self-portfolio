@@ -1,14 +1,15 @@
-import Head from "next/head";
-import { GrCheckbox } from "react-icons/gr";
+import Head from 'next/head';
+import Image from 'next/image';
+import { GrCheckbox } from 'react-icons/gr';
 
 // Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
-import "swiper/css";
-import "swiper/css/navigation";
+import 'swiper/css';
+import 'swiper/css/navigation';
 
-import { Navigation } from "swiper";
+import { Navigation } from 'swiper';
 
 const Experience = () => {
   return (
@@ -120,10 +121,10 @@ const Experience = () => {
       {/*       </div> */}
       {/*     </div> */}
       {/*   </div> */}
-      <div className="w-full h-full flex flex-col justify-self-stretch pb-6">
-        <div className="w-full flex-1 border-b-[1px] border-black">
+      <div className="w-full h-full flex flex-col pb-6">
+        <div className="w-full border-b-[1px] border-black">
           <div className="text-2xl sm:text-3xl">EXPERIENCE [4]</div>
-          <div className="w-full flex flex-col sm:flex-row sm:gap-6 text-sm">
+          <div className="w-full flex flex-col sm:flex-row sm:gap-6 py-6 text-sm">
             <div className="flex flex-row items-center gap-1">
               <GrCheckbox />
               INSIDEDESK
@@ -142,17 +143,19 @@ const Experience = () => {
             </div>
           </div>
         </div>
-        <div className="w-full flex-1">
-          <div className="bg-red-300 w-1/2 h-full"></div>
-        </div>
-        <div className="w-full flex-1">
-          <div className="bg-blue-300 w-1/2 h-full"></div>
-        </div>
-        <div className="w-full flex-1">
-          <div className="bg-yellow-300 w-1/2 h-full"></div>
-        </div>
-        <div className="w-full flex-1">
-          <div className="bg-green-300 w-1/2 h-full"></div>
+        <div className="w-full flex flex-row gap-6 py-6">
+          <div className="bg-red-300 w-1/2 sm:w-1/3 h-[120px]">
+          </div>
+          <div className="h-full w-1/2 text-sm">
+            <div className="h-full sm:w-1/2 text-sm">
+              BUILDING WEB SCRAPING INFRASTRUCTURES TO AUTOMATE REVENUE CYCLE
+              MANAGEMENT
+              <br />
+              <br />
+              JAN - SEP 2023
+              <div className="underline">SOFTWARE DEV CO-OP</div>
+            </div>
+          </div>
         </div>
       </div>
     </>
