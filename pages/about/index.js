@@ -8,7 +8,7 @@ const About = () => {
         <title>Jared Drueco | About</title>
         <meta name="keywords" content="about" />
       </Head>
-      <div className="flex flex-col-reverse justify-center items-center h-96 sm:h-[475px]">
+      <div className="flex flex-col-reverse justify-center items-center pt-14">
         <div className="rounded-lg shadow-lg bg-[#26262f] h-[45%] sm:h-[50%] w-full flex flex-col border-gray-300 border-[1px]">
           <div className="h-[15%] w-full flex flex-row justify-center">
             <div className="h-full w-[96%] flex flex-row items-center">
