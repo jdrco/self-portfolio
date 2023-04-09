@@ -37,8 +37,8 @@ const Projects = () => {
       </Head>
       <div className="w-full h-full flex flex-col justify-self-stretch">
         <div className="flex-1">
-          <div className="flex-1 text-2xl sm:text-3xl mb-5">TECHNICAL SKILLS</div>
-          <div className="w-full flex align-baseline mb-8 border-t-[1px] border-black">
+          <div className="flex-1 text-2xl sm:text-3xl mb-6">TECHNICAL SKILLS</div>
+          <div className="w-full flex align-baseline pt-3 border-t-[1px] border-black">
             {/* left */}
             <div className="w-1/2 text-base sm:text-lg">Languages</div>
             {/* right */}
@@ -69,7 +69,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="flex-1">
-          <div className="w-full flex align-baseline mb-5 border-t-[1px] border-black">
+          <div className="w-full flex align-baseline pt-5 border-t-[1px] border-black">
             {/* left */}
             <div className="w-1/2 text-base sm:text-lg">Frontend</div>
             {/* right */}
@@ -87,6 +87,10 @@ const Projects = () => {
                 <div className="">React.js</div>
               </div>
               <div className="h-full flex items-center gap-1 sm:text-base">
+                <FaReact className="" />
+                <div className="">React Native</div>
+              </div>
+              <div className="h-full flex items-center gap-1 sm:text-base">
                 <SiTailwindcss className="" />
                 <div className="">Tailwind</div>
               </div>
@@ -98,7 +102,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="flex-1">
-          <div className="w-full flex flex-1 align-baseline mb-5 border-t-[1px] border-black">
+          <div className="w-full flex flex-1 align-baseline pt-5 border-t-[1px] border-black">
             {/* left */}
             <div className="w-1/2 text-base sm:text-lg">Backend</div>
             {/* right */}
@@ -131,7 +135,7 @@ const Projects = () => {
           </div>
         </div>
         <div className="flex-1">
-          <div className="w-full flex flex-1 align-baseline mb-5 border-t-[1px] border-black">
+          <div className="w-full flex flex-1 align-baseline pt-5 border-t-[1px] border-black">
             {/* left */}
             <div className="w-1/2 text-base sm:text-lg">Frameworks & Tools</div>
             {/* right */}

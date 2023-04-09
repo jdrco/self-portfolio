@@ -5,9 +5,9 @@ const Experience = () => {
   return (
     <div className="h-full flex flex-col p-10">
       <div className="text-3xl font-light sm:text-4xl">
-        3RD YEAR UOFA<br></br>SOFTWARE ENGINEERING
+        3RD YEAR BSc<br></br>SOFTWARE ENGINEERING
       </div>
-      <div className="text-sm mt-5 sm:mt-10 leading-4 font-light w-[85%] sm:text-base sm:leading-5">
+      <div className="text-sm mt-5 sm:mt-10 leading-4 font-light sm:w-[85%] sm:text-base sm:leading-5">
         I am an aspiring software engineer focused on creating meaningful impact
         through software development and leadership opportunites
       </div>
@@ -19,14 +19,14 @@ const Experience = () => {
           <div className="h-full w-full">
             <div className="text-xl sm:text-2xl">EDUCATION</div>
             <div className="text-sm leading-4 sm:text-base sm:leading-5">
-              BSc in Software Engineering <br /> Class of 2025
+              University of Alberta <br /> BSc in Software Engineering <br /> Class of 2025
             </div>
           </div>
         </div>
         <div className="sm:w-1/2 flex flex-col pt-1 font-light border-t-[1px] border-gray-400 leading-5">
           <div className="text-xl sm:text-2xl">EXPERIENCE</div>
           <div className="text-sm leading-4 sm:text-base sm:leading-5">
-            I have completed 2 of 5 co-op work terms in software development
+            Multiple internships and involved in several school clubs
           </div>
         </div>
       </div>
