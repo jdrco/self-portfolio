@@ -1,15 +1,7 @@
 import Head from 'next/head';
 import Image from 'next/image';
 import { GrCheckbox } from 'react-icons/gr';
-
-// Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-
-import { Navigation } from 'swiper';
+import Link from 'next/link';
 
 const Experience = () => {
   return (
@@ -18,7 +10,7 @@ const Experience = () => {
         <title>Jared Drueco | Experience</title>
         <meta name="keywords" content="experience" />
       </Head>
-      <div className="w-full h-full flex flex-col pb-6">
+      <div className="w-full h-full flex flex-col pb-6 overflow-y-auto no-scrollbar">
         <div className="w-full border-b-[1px] border-black">
           <div className="text-2xl sm:text-3xl">EXPERIENCE [4]</div>
           <div className="w-full flex flex-col sm:flex-row sm:gap-6 py-3 sm:py-6 text-xs sm:text-sm">
@@ -42,7 +34,13 @@ const Experience = () => {
         </div>
         <div className="w-full flex flex-row gap-6 py-3 border-b-[1px] border-black">
           <div className="w-1/2 sm:w-1/3">
-            <div className="bg-purple-600 px-1 text-white text-xs sm:text-sm">InsideDesk Inc.</div>
+            <Link href="https://www.linkedin.com/company/goinsidedesk/?originalSubdomain=ca">
+              <a className="w-full">
+                <div className="bg-purple-600 px-1 text-white text-xs sm:text-sm">
+                  InsideDesk Inc.
+                </div>
+              </a>
+            </Link>
           </div>
           <div className="h-full w-1/2 text-xs sm:text-sm">
             <div className="h-full sm:w-1/2 text-xs sm:text-sm">
@@ -59,9 +57,13 @@ const Experience = () => {
         </div>
         <div className="w-full flex flex-row gap-6 py-3 border-b-[1px] border-black">
           <div className="w-1/2 sm:w-1/3">
-            <div className="bg-blue-500 text-white px-1 text-xs sm:text-sm">
-              UAlberta Blueprint
-            </div>
+            <Link href="https://www.uofablueprint.org/">
+              <a className="w-full">
+                <div className="bg-blue-500 text-white px-1 text-xs sm:text-sm">
+                  UAlberta Blueprint
+                </div>
+              </a>
+            </Link>
           </div>
           <div className="h-full w-1/2 text-xs sm:text-sm">
             <div className="h-full sm:w-1/2 text-xs sm:text-sm">
@@ -78,13 +80,18 @@ const Experience = () => {
         </div>
         <div className="w-full flex flex-row gap-6 py-3 border-b-[1px] border-black">
           <div className="w-1/2 sm:w-1/3">
-            <div className="bg-slate-500 text-white px-1 text-xs sm:text-sm">
-              Geoson Solutions Ltd.
-            </div>
+            <Link href="https://geosonsolutions.com/">
+              <a className="w-full">
+                <div className="bg-slate-500 text-white px-1 text-xs sm:text-sm">
+                  Geoson Solutions Ltd.
+                </div>
+              </a>
+            </Link>
           </div>
           <div className="h-full w-1/2 text-xs sm:text-sm">
             <div className="h-full sm:w-1/2 text-xs sm:text-sm">
-              PROGRAMMED EXTENSIONS AND APPLICATIONS FOR A MICROSOFT CLOUD BASED ERP SYSTEM
+              PROGRAMMED APPLICATIONS AND EXTENSIONS FOR A CLOUD BASED ERP AND
+              CRM SYSTEMS
               <br />
               <br />
               MAY 2022 - AUG 2022
@@ -96,13 +103,18 @@ const Experience = () => {
         </div>
         <div className="w-full flex flex-row gap-6 py-3">
           <div className="w-1/2 sm:w-1/3">
-            <div className="bg-yellow-500 text-black px-1 text-xs sm:text-sm">
-              UAlberta Future Creators
-            </div>
+            <Link href="https://www.uafc.ca/">
+              <a className="w-full">
+                <div className="bg-yellow-500 text-black px-1 text-xs sm:text-sm">
+                  UAlberta Future Creators
+                </div>
+              </a>
+            </Link>
           </div>
           <div className="h-full w-1/2 text-xs sm:text-sm">
             <div className="h-full sm:w-1/2 text-xs sm:text-sm">
-              PLANNED AND ORGANIZED STEM-BASED WORKSHOPS TO MENTOR 200+ MENTEES ON HARDWARE/SOFTWARE DEVELOPMENT
+              PLANNED AND ORGANIZED STEM-BASED WORKSHOPS TO MENTOR 200+ MENTEES
+              ON HARDWARE/SOFTWARE DEVELOPMENT
               <br />
               <br />
               AUG 2021 - PRESENT

@@ -22,7 +22,7 @@ const Layout = ({ children }) => {
   return (
     <div className="max-w-[22rem] sm:max-w-xl md:max-w-5xl flex mx-auto h-screen flex-col absolute inset-0 scroll no-scrollbar overflow-x-hidden">
       <Navbar />
-      <div className="h-full flex-1" style={{ height: bodyHeight }}>
+      <div className="flex-1" style={{ height: bodyHeight }}>
         {children}
       </div>
       {/* <Footer /> */}

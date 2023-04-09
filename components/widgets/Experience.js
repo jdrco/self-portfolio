@@ -15,18 +15,18 @@ const Experience = () => {
         MY BACKGROUND
       </div>
       <div className="flex flex-col sm:flex-row gap-2 sm:gap-5 mb-9">
+        <div className="sm:w-1/2 flex flex-col pt-1 font-light border-t-[1px] border-gray-400 leading-5">
+          <div className="text-xl sm:text-2xl">EXPERIENCE</div>
+          <div className="text-sm leading-4 sm:text-base sm:leading-5">
+            Currently a Software Developer at InsideDesk
+          </div>
+        </div>
         <div className="sm:w-1/2 pt-1 font-light border-t-[1px] border-gray-400 leading-5">
           <div className="h-full w-full">
             <div className="text-xl sm:text-2xl">EDUCATION</div>
             <div className="text-sm leading-4 sm:text-base sm:leading-5">
               University of Alberta <br /> BSc in Software Engineering <br /> Class of 2025
             </div>
-          </div>
-        </div>
-        <div className="sm:w-1/2 flex flex-col pt-1 font-light border-t-[1px] border-gray-400 leading-5">
-          <div className="text-xl sm:text-2xl">EXPERIENCE</div>
-          <div className="text-sm leading-4 sm:text-base sm:leading-5">
-            Multiple internships and involved in several school clubs
           </div>
         </div>
       </div>

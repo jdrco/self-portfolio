@@ -1,6 +1,10 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import { HiOutlineArrowNarrowRight } from 'react-icons/hi';
+import { HiOutlineArrowNarrowRight, HiOutlineDeviceMobile } from 'react-icons/hi';
+import { BsFillFilePersonFill, BsFillJournalBookmarkFill, BsPhone } from 'react-icons/bs';
+import { BiCurrentLocation } from 'react-icons/bi';
+import { FaUniversity } from 'react-icons/fa';
+import { TbApi, TbBrandAppleArcade } from 'react-icons/tb';
 
 const Projects = () => {
   return (
@@ -22,7 +26,9 @@ const Projects = () => {
           {/* Project card */}
           <div className="bg-black w-full flex p-3 gap-3">
             <div className="w-2/5 h-full">
-              <div className="w-full h-full bg-lime-200 p-3 aspect-square"></div>
+              <div className="w-full h-full text-4xl bg-lime-200 p-3 aspect-square flex justify-center items-center">
+                <BsFillFilePersonFill />
+              </div>
             </div>
             <div className="w-3/5 flex flex-col justify-between text-white">
               <div className="w-full h-full">
@@ -45,7 +51,9 @@ const Projects = () => {
           {/* Project card */}
           <div className="bg-black w-full flex p-3 gap-3">
             <div className="w-2/5 h-full">
-              <div className="w-full h-full bg-teal-200 p-3 aspect-square"></div>
+              <div className="w-full h-full text-4xl bg-teal-200 p-3 aspect-square flex justify-center items-center">
+                <BsPhone />
+              </div>
             </div>
             <div className="w-3/5 flex flex-col justify-between text-white">
               <div className="w-full h-full">
@@ -66,7 +74,9 @@ const Projects = () => {
           {/* Project card */}
           <div className="bg-black w-full flex p-3 gap-3">
             <div className="w-2/5 h-full">
-              <div className="w-full h-full bg-amber-200 p-3 aspect-square"></div>
+              <div className="w-full h-full text-3xl bg-amber-200 p-3 aspect-square flex justify-center items-center">
+                <BsFillJournalBookmarkFill />
+              </div>
             </div>
             <div className="w-3/5 flex flex-col justify-between text-white">
               <div className="w-full h-full">
@@ -88,7 +98,9 @@ const Projects = () => {
           {/* Project card */}
           <div className="bg-black w-full flex p-3 gap-3">
             <div className="w-2/5 h-full">
-              <div className="w-full h-full bg-red-200 p-3 aspect-square"></div>
+              <div className="w-full h-full text-4xl bg-red-200 p-3 aspect-square flex justify-center items-center">
+                <BiCurrentLocation />
+              </div>
             </div>
             <div className="w-3/5 flex flex-col justify-between text-white">
               <div className="w-full h-full">
@@ -112,7 +124,9 @@ const Projects = () => {
           {/* Project card */}
           <div className="bg-black w-full flex p-3 gap-3">
             <div className="w-2/5 h-full">
-              <div className="w-full h-full bg-sky-200 p-3 aspect-square"></div>
+              <div className="w-full h-full text-4xl bg-sky-200 p-3 aspect-square flex justify-center items-center">
+                <FaUniversity />
+              </div>
             </div>
             <div className="w-3/5 flex flex-col justify-between text-white">
               <div className="w-full h-full">
@@ -136,7 +150,9 @@ const Projects = () => {
           {/* Project card */}
           <div className="bg-black w-full flex p-3 gap-3">
             <div className="w-2/5 h-full">
-              <div className="w-full h-full bg-lime-200 p-3 aspect-square"></div>
+              <div className="w-full h-full text-4xl bg-lime-200 p-3 aspect-square flex justify-center items-center">
+                <TbApi />
+              </div>
             </div>
             <div className="w-3/5 flex flex-col justify-between text-white">
               <div className="w-full h-full">
@@ -160,7 +176,9 @@ const Projects = () => {
           {/* Project card */}
           <div className="bg-black w-full flex p-3 gap-3">
             <div className="w-2/5 h-full">
-              <div className="w-full h-full bg-orange-200 p-3 aspect-square"></div>
+              <div className="w-full h-full text-4xl bg-orange-200 p-3 aspect-square flex justify-center items-center">
+                <TbBrandAppleArcade />
+              </div>
             </div>
             <div className="w-3/5 flex flex-col justify-between text-white">
               <div className="w-full h-full">
