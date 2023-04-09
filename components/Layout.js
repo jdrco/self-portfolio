@@ -1,6 +1,5 @@
-import Navbar from './Navbar';
-import { useState, useEffect } from 'react';
-import Footer from './Footer';
+import Navbar from "./Navbar";
+import { useState, useEffect } from "react";
 
 const Layout = ({ children }) => {
   const [windowHeight, setWindowHeight] = useState(0);
@@ -10,9 +9,9 @@ const Layout = ({ children }) => {
     function handleResize() {
       setWindowHeight(window.innerHeight);
     }
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
     return () => {
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
@@ -21,7 +20,7 @@ const Layout = ({ children }) => {
   console.log(bodyHeight);
 
   return (
-    <div className="max-w-[22rem] sm:max-w-xl md:max-w-5xl flex mx-auto h-screen flex-col absolute inset-0 scroll no-scrollbar">
+    <div className="max-w-[22rem] sm:max-w-xl md:max-w-5xl flex mx-auto h-screen flex-col absolute inset-0 scroll no-scrollbar overflow-x-hidden">
       <Navbar />
       <div className="h-full flex-1" style={{ height: bodyHeight }}>
         {children}
