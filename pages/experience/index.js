@@ -21,7 +21,7 @@ const Experience = () => {
       <div className="w-full h-full flex flex-col pb-6">
         <div className="w-full border-b-[1px] border-black">
           <div className="text-2xl sm:text-3xl">EXPERIENCE [4]</div>
-          <div className="w-full flex flex-col sm:flex-row sm:gap-6 py-6 text-xs sm:text-sm">
+          <div className="w-full flex flex-col sm:flex-row sm:gap-6 py-3 sm:py-6 text-xs sm:text-sm">
             <div className="flex flex-row items-center gap-1">
               <GrCheckbox />
               INSIDEDESK
