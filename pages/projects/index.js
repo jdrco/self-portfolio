@@ -22,20 +22,45 @@ const Projects = () => {
           {/* Project card */}
           <div className="bg-black w-full flex p-3 gap-3">
             <div className="w-2/5 h-full">
+              <div className="w-full h-full bg-lime-200 p-3 aspect-square"></div>
+            </div>
+            <div className="w-3/5 flex flex-col justify-between text-white">
+              <div className="w-full h-full">
+                PORTFOLIO
+                <br />
+                <div className="text-xs sm:text-sm font-light leading-tight">
+                  PROGRAMMED THIS WEBSITE MYSELF :)
+                </div>
+                <br />
+                <br />
+              </div>
+              <Link href="https://github.com/jdrco/self-portfolio">
+                <a className="underline font-bold text-sm flex flex-row items-center">
+                  FULL PROJECT
+                  <HiOutlineArrowNarrowRight />
+                </a>
+              </Link>
+            </div>
+          </div>
+          {/* Project card */}
+          <div className="bg-black w-full flex p-3 gap-3">
+            <div className="w-2/5 h-full">
               <div className="w-full h-full bg-teal-200 p-3 aspect-square"></div>
             </div>
             <div className="w-3/5 flex flex-col justify-between text-white">
               <div className="w-full h-full">
                 ISA ICard
                 <br />
-                <span className="text-xs sm:text-sm font-light">REACT NATIVE MOBILE APP</span>
+                <span className="text-xs sm:text-sm font-light">
+                  REACT NATIVE MOBILE APP
+                </span>
                 <br />
                 <br />
                 <br />
               </div>
-                <div className="underline font-bold text-sm flex flex-row items-center">
-                  CLUB PROJECT
-                </div>
+              <div className="underline font-bold text-sm flex flex-row items-center">
+                CLUB PROJECT
+              </div>
             </div>
           </div>
           {/* Project card */}
@@ -69,7 +94,9 @@ const Projects = () => {
               <div className="w-full h-full">
                 Safe Contact
                 <br />
-                <span className="text-xs sm:text-sm font-light">GEOLOCATION APP</span>
+                <span className="text-xs sm:text-sm font-light">
+                  GEOLOCATION APP
+                </span>
                 <br />
                 <br />
                 <br />
@@ -91,7 +118,9 @@ const Projects = () => {
               <div className="w-full h-full">
                 Courseberta
                 <br />
-                <span className="text-xs sm:text-sm font-light">STREAMLINING APP</span>
+                <span className="text-xs sm:text-sm font-light">
+                  STREAMLINING APP
+                </span>
                 <br />
                 <br />
                 <br />
@@ -113,7 +142,9 @@ const Projects = () => {
               <div className="w-full h-full">
                 Phonebook
                 <br />
-                <span className="text-xs sm:text-sm font-light">RESTful API</span>
+                <span className="text-xs sm:text-sm font-light">
+                  RESTful API
+                </span>
                 <br />
                 <br />
                 <br />
@@ -135,7 +166,9 @@ const Projects = () => {
               <div className="w-full h-full">
                 Tile Drag
                 <br />
-                <span className="text-xs sm:text-sm font-light">WEB JS GAME</span>
+                <span className="text-xs sm:text-sm font-light">
+                  WEB JS GAME
+                </span>
                 <br />
                 <br />
                 <br />
