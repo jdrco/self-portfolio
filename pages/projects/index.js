@@ -44,7 +44,23 @@ const Projects = () => {
         <title>Jared Drueco | Projects</title>
         <meta name="keywords" content="projects" />
       </Head>
-      <div className="flex flex-col justify-center items-center h-96 sm:h-[475px]">
+      <div className="w-full h-full flex flex-col sm:flex-row p-3 bg-green-400 gap-3">
+        <div className="sm:w-1/2 bg-slate-600">
+          <br /> 
+          <br /> 
+          <br /> 
+          <br /> 
+          projects
+        </div>
+        <div className="sm:w-1/2 bg-red-600 flex flex-col gap-4 p-4 overflow-y-auto overflow-scroll">
+          <div className="bg-yellow-700 w-full"><br /><br /><br /><br /><br /><br /></div>
+          <div className="bg-yellow-700 w-full"><br /><br /><br /><br /><br /><br /></div>
+          <div className="bg-yellow-700 w-full"><br /><br /><br /><br /><br /><br /></div>
+          <div className="bg-yellow-700 w-full"><br /><br /><br /><br /><br /><br /></div>
+          <div className="bg-yellow-700 w-full"><br /><br /><br /><br /><br /><br /></div>
+        </div>
+      </div>
+      {/* <div className="flex flex-col justify-center items-center h-96 sm:h-[475px]">
         <div className=" h-full w-full flex flex-col justify-center items-center">
           <div className="w-full h-full">
             <Swiper navigation={true} modules={[Navigation]} className="h-full">
@@ -207,7 +223,7 @@ const Projects = () => {
             </Swiper>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };
