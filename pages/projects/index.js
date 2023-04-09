@@ -1,41 +1,6 @@
 import Head from 'next/head';
-
-// Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-
-import { Navigation } from 'swiper';
-
-import {
-  FaPython,
-  FaHtml5,
-  FaCss3Alt,
-  FaReact,
-  FaBootstrap,
-  FaNodeJs,
-  FaGitAlt,
-  FaFigma,
-  FaLinux,
-  FaDocker,
-  FaJsSquare,
-} from 'react-icons/fa';
-import {
-  SiJavascript,
-  SiCplusplus,
-  SiMicrosoftsqlserver,
-  SiTailwindcss,
-  SiExpress,
-  SiAzuredevops,
-  SiPostman,
-  SiVim,
-  SiArduino,
-  SiNextdotjs,
-} from 'react-icons/si';
-
 import Link from 'next/link';
+import { HiOutlineArrowNarrowRight } from 'react-icons/hi';
 
 const Projects = () => {
   return (
@@ -45,59 +10,37 @@ const Projects = () => {
         <meta name="keywords" content="projects" />
       </Head>
       <div className="w-full h-full flex flex-col sm:flex-row sm:pb-[80px]">
-        <div className="sm:w-1/2 border-b-[1px] sm:border-b-0 sm:border-r-[1px] border-black mb-3 sm:mb-0 p-3">
+        <div className="sm:w-1/2 border-b-[1px] sm:border-b-0 sm:border-r-[1px] border-black mb-3 sm:mb-0 py-3 sm:px-3">
           (projects){' '}
           <span className="text-xl">
-            My experience in project development showcases my ability to adapt
+            My experience in development and engineering showcases my ability to adapt
             to new technologies and approaches, while demonstrating a strong
-            grasp of modern software development principles and techniques.
+            grasp of modern software design principles and techniques.
           </span>
         </div>
         <div className="sm:w-1/2 flex flex-col gap-4 sm:px-4 overflow-y-auto overflow-scroll">
-          <div className="bg-black w-full">
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-          </div>
-          <div className="bg-black w-full">
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-          </div>
-          <div className="bg-black w-full">
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-          </div>
-          <div className="bg-black w-full">
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-          </div>
-          <div className="bg-black w-full">
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+          <div className="bg-black w-full flex p-3 gap-3">
+            <div className="w-2/5 h-full">
+              <div className="w-full h-full bg-green-500 p-3"></div>
+            </div>
+            <div className="w-3/5 flex flex-col justify-between text-white">
+              <div className="w-full h-full">
+                JournAI
+                <br />
+                <span className="text-sm font-light">
+                  BUILT AN NLP BASED APP
+                </span>
+                <br />
+                <br />
+                <br />
+                <br />
+                <br />
+              </div>
+              <div className="underline font-bold text-sm flex flex-row items-center">
+                FULL PROJECT
+                <HiOutlineArrowNarrowRight />
+              </div>
+            </div>
           </div>
         </div>
       </div>
