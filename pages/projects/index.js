@@ -1,13 +1,13 @@
-import Head from "next/head";
+import Head from 'next/head';
 
 // Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
-import "swiper/css";
-import "swiper/css/navigation";
+import 'swiper/css';
+import 'swiper/css/navigation';
 
-import { Navigation } from "swiper";
+import { Navigation } from 'swiper';
 
 import {
   FaPython,
@@ -21,7 +21,7 @@ import {
   FaLinux,
   FaDocker,
   FaJsSquare,
-} from "react-icons/fa";
+} from 'react-icons/fa';
 import {
   SiJavascript,
   SiCplusplus,
@@ -33,9 +33,9 @@ import {
   SiVim,
   SiArduino,
   SiNextdotjs,
-} from "react-icons/si";
+} from 'react-icons/si';
 
-import Link from "next/link";
+import Link from 'next/link';
 
 const Projects = () => {
   return (
@@ -44,20 +44,61 @@ const Projects = () => {
         <title>Jared Drueco | Projects</title>
         <meta name="keywords" content="projects" />
       </Head>
-      <div className="w-full h-full flex flex-col sm:flex-row p-3 bg-green-400 gap-3">
-        <div className="sm:w-1/2 bg-slate-600">
-          <br /> 
-          <br /> 
-          <br /> 
-          <br /> 
-          projects
+      <div className="w-full h-full flex flex-col sm:flex-row sm:pb-[80px]">
+        <div className="sm:w-1/2 border-b-[1px] sm:border-b-0 sm:border-r-[1px] border-black mb-3 sm:mb-0 p-3">
+          (projects){' '}
+          <span className="text-xl">
+            My experience in project development showcases my ability to adapt
+            to new technologies and approaches, while demonstrating a strong
+            grasp of modern software development principles and techniques.
+          </span>
         </div>
-        <div className="sm:w-1/2 bg-red-600 flex flex-col gap-4 p-4 overflow-y-auto overflow-scroll">
-          <div className="bg-yellow-700 w-full"><br /><br /><br /><br /><br /><br /></div>
-          <div className="bg-yellow-700 w-full"><br /><br /><br /><br /><br /><br /></div>
-          <div className="bg-yellow-700 w-full"><br /><br /><br /><br /><br /><br /></div>
-          <div className="bg-yellow-700 w-full"><br /><br /><br /><br /><br /><br /></div>
-          <div className="bg-yellow-700 w-full"><br /><br /><br /><br /><br /><br /></div>
+        <div className="sm:w-1/2 flex flex-col gap-4 sm:px-4 overflow-y-auto overflow-scroll">
+          <div className="bg-black w-full">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+          </div>
+          <div className="bg-black w-full">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+          </div>
+          <div className="bg-black w-full">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+          </div>
+          <div className="bg-black w-full">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+          </div>
+          <div className="bg-black w-full">
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+          </div>
         </div>
       </div>
       {/* <div className="flex flex-col justify-center items-center h-96 sm:h-[475px]">
