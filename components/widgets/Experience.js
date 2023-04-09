@@ -1,63 +1,42 @@
-import Image from "next/image";
+import { HiOutlineArrowNarrowRight } from 'react-icons/hi';
+import Link from 'next/link';
 
 const Experience = () => {
   return (
-    <div className="bg-gradient-to-t from-rose-300 to-pink-500 h-full flex flex-col">
-      <div className="my-2 mx-3 flex flex-col justify-between h-full">
-        <div className="header flex flex-col mb-1">
-          <div className="tophalf flex flex-row flex-end items-end w-full">
-            <h1 className="text-white font-medium text-[10px] sm:text-base mr-auto">
-              Experience
-            </h1>
-            <div className="engglog h-4 w-4 sm:h-6 sm:w-6">
-              <Image
-                src="/eng.png"
-                layout="responsive"
-                className="object-contain w-full h-full relative invert"
-                width={15}
-                height={15}
-              />
-            </div>
-          </div>
-
-          <div className="bottomhalf flex flex-row flex-end items-end w-full">
-            <div className="text-white font-light text-2xl sm:text-3xl leading-5 sm:leading-6 mr-auto">
-              3<span className="text-[8px] sm:text-[12px]">rd year</span>
-            </div>
-            <div className="edu flex flex-col items-end w-auto h-auto">
-              <p className="text-white text-[8px] sm:text-xs leading-[8px]">
-                UAlberta
-              </p>
-              <p className="text-white text-[8px] sm:text-xs leading-3">
-                Software Engineering
-              </p>
+    <div className="h-full flex flex-col p-10">
+      <div className="text-3xl font-light sm:text-4xl">
+        3RD YEAR BSc<br></br>SOFTWARE ENGINEERING
+      </div>
+      <div className="text-sm mt-5 sm:mt-10 leading-4 font-light sm:w-[85%] sm:text-base sm:leading-5">
+        I am an aspiring software engineer focused on creating meaningful impact
+        through software development and leadership opportunites
+      </div>
+      <div className="text-3xl sm:text-4xl font-light mt-5 sm:mt-10">
+        MY BACKGROUND
+      </div>
+      <div className="flex flex-col sm:flex-row gap-2 sm:gap-5 mb-9">
+        <div className="sm:w-1/2 pt-1 font-light border-t-[1px] border-gray-400 leading-5">
+          <div className="h-full w-full">
+            <div className="text-xl sm:text-2xl">EDUCATION</div>
+            <div className="text-sm leading-4 sm:text-base sm:leading-5">
+              University of Alberta <br /> BSc in Software Engineering <br /> Class of 2025
             </div>
           </div>
         </div>
-        <div className="experiences h-auto">
-          <div className="pt-1 text-white text-[8px] sm:text-sm leading-[9px] border-t-[1px] mb-2 sm:mb-3">
-            <div className="flex flex-row flex-end items-end w-full">
-              <p className="font-bold mr-auto">InsideDesk</p>
-              <p className="">Jan 2023 - Present</p>
-            </div>
-            <p>Software Developer Co-op</p>
-          </div>
-          <div className="pt-1 text-white text-[8px] sm:text-sm leading-[9px] border-t-[1px] mb-2 sm:mb-3">
-            <div className="flex flex-row flex-end items-end w-full">
-              <p className="font-bold mr-auto">Geoson Solutions</p>
-              <p className="">May - Dec 2022</p>
-            </div>
-            <p>Software Developer Co-op</p>
-          </div>
-          <div className="pt-1 text-white text-[8px] sm:text-sm leading-[9px] border-t-[1px] mb-1">
-            <div className="flex flex-row flex-end items-end w-full">
-              <p className="font-bold mr-auto">Future Creators</p>
-              <p className="">Aug 2021 - Present</p>
-            </div>
-            <p>Co-President</p>
+        <div className="sm:w-1/2 flex flex-col pt-1 font-light border-t-[1px] border-gray-400 leading-5">
+          <div className="text-xl sm:text-2xl">EXPERIENCE</div>
+          <div className="text-sm leading-4 sm:text-base sm:leading-5">
+            Multiple internships and involved in several school clubs
           </div>
         </div>
       </div>
+      <Link href="/experience">
+        <button className="absolute h-12 w-12 bottom-6 right-6 bg-black bg-opacity-50 backdrop-blur-2xl rounded-full">
+          <div className="flex items-center justify-center invert">
+            <HiOutlineArrowNarrowRight />
+          </div>
+        </button>
+      </Link>
     </div>
   );
 };

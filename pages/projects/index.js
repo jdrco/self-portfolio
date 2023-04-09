@@ -1,41 +1,6 @@
-import Head from "next/head";
-
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/navigation";
-
-import { Navigation } from "swiper";
-
-import {
-  FaPython,
-  FaHtml5,
-  FaCss3Alt,
-  FaReact,
-  FaBootstrap,
-  FaNodeJs,
-  FaGitAlt,
-  FaFigma,
-  FaLinux,
-  FaDocker,
-  FaJsSquare,
-} from "react-icons/fa";
-import {
-  SiJavascript,
-  SiCplusplus,
-  SiMicrosoftsqlserver,
-  SiTailwindcss,
-  SiExpress,
-  SiAzuredevops,
-  SiPostman,
-  SiVim,
-  SiArduino,
-  SiNextdotjs,
-} from "react-icons/si";
-
-import Link from "next/link";
+import Head from 'next/head';
+import Link from 'next/link';
+import { HiOutlineArrowNarrowRight } from 'react-icons/hi';
 
 const Projects = () => {
   return (
@@ -44,167 +9,144 @@ const Projects = () => {
         <title>Jared Drueco | Projects</title>
         <meta name="keywords" content="projects" />
       </Head>
-      <div className="flex flex-col justify-center items-center h-96 sm:h-[475px]">
-        <div className=" h-full w-full flex flex-col justify-center items-center">
-          <div className="w-full h-full">
-            <Swiper navigation={true} modules={[Navigation]} className="h-full">
-              <SwiperSlide className="flex justify-center items-center">
-                <a
-                  href="https://github.com/jdrco/self-portfolio"
-                  className="rounded-[14px] bg-gradient-to-tr from-rose-600 to-pink-800 h-[45%] sm:h-[50%] md:h-[55%] w-[80%] p-2 sm:p-3 shadow-md"
-                >
-                  <div className="h-full w-full flex flex-col">
-                    <div className="w-full h-auto flex flex-row justify-between mb-2">
-                      <div className="flex flex-col text-white text-sm sm:text-[20px]">
-                        <div className="leading-3 sm:leading-6">
-                          Personal Website
-                        </div>
-                        <div className="text-[10px] sm:text-[12px]">
-                          Web Portfolio
-                        </div>
-                      </div>
-                      <div className="flex flex-row gap-2 text-white text-3xl sm:text-5xl">
-                        <SiJavascript />
-                        <SiNextdotjs />
-                        <SiTailwindcss />
-                      </div>
-                    </div>
-                    <div className="bg-black h-full rounded-lg p-3 overflow-auto scroll scrollbar text-xs sm:text-sm text-white">
-                      This very site is my own web portfolio, coded by me!{" "}
-                      <br />
-                      <br />I built this using Next.js and Tailwind CSS. You can
-                      click on each of the project cards to view the source
-                      code.
-                    </div>
-                  </div>
+      <div className="w-full h-full flex flex-col sm:flex-row sm:pb-[80px]">
+        <div className="sm:w-1/2 border-b-[1px] sm:border-b-0 sm:border-r-[1px] border-black mb-3 sm:mb-0 pb-3 sm:px-3">
+          <span className="text-2xl sm:text-3xl">(PROJECTS) </span>
+          <span className="text-sm sm:text-base">
+            My experience in development and engineering showcases my ability to
+            adapt to new technologies and approaches, while demonstrating a
+            strong grasp of modern software design principles and techniques.
+          </span>
+        </div>
+        <div className="sm:w-1/2 flex flex-col gap-4 sm:px-4 overflow-y-auto scrollbar pr-1 sm:pr-3">
+          {/* Project card */}
+          <div className="bg-black w-full flex p-3 gap-3">
+            <div className="w-2/5 h-full">
+              <div className="w-full h-full bg-teal-200 p-3 aspect-square"></div>
+            </div>
+            <div className="w-3/5 flex flex-col justify-between text-white">
+              <div className="w-full h-full">
+                ISA ICard
+                <br />
+                <span className="text-xs sm:text-sm font-light">REACT NATIVE MOBILE APP</span>
+                <br />
+                <br />
+                <br />
+              </div>
+                <div className="underline font-bold text-sm flex flex-row items-center">
+                  CLUB PROJECT
+                </div>
+            </div>
+          </div>
+          {/* Project card */}
+          <div className="bg-black w-full flex p-3 gap-3">
+            <div className="w-2/5 h-full">
+              <div className="w-full h-full bg-amber-200 p-3 aspect-square"></div>
+            </div>
+            <div className="w-3/5 flex flex-col justify-between text-white">
+              <div className="w-full h-full">
+                JournAI
+                <br />
+                <span className="text-xs sm:text-sm font-light">NLP APP</span>
+                <br />
+                <br />
+                <br />
+              </div>
+              <Link href="https://devpost.com/software/journai-8wl03y">
+                <a className="underline font-bold text-sm flex flex-row items-center">
+                  FULL PROJECT
+                  <HiOutlineArrowNarrowRight />
                 </a>
-              </SwiperSlide>
-              <SwiperSlide className="flex justify-center items-center">
-                <a
-                  href="https://github.com/jdrco/Courseberta"
-                  className="rounded-[14px] bg-gradient-to-tr from-teal-600 to-blue-800 h-[45%] sm:h-[50%] md:h-[55%] w-[80%] p-2 sm:p-3 shadow-md"
-                >
-                  <div className="h-full w-full flex flex-col">
-                    <div className="w-full h-auto flex flex-row justify-between mb-2">
-                      <div className="flex flex-col text-white text-sm sm:text-[20px]">
-                        <div className="leading-3 sm:leading-6">
-                          Courseberta
-                        </div>
-                        <div className="text-[10px] sm:text-[12px]">
-                          Hackathon Project
-                        </div>
-                      </div>
-                      <div className="flex flex-row gap-2 text-white text-3xl sm:text-5xl">
-                        <FaJsSquare />
-                        <FaBootstrap className="text-[32px] sm:text-[50px]" />
-                        <FaPython />
-                      </div>
-                    </div>
-                    <div className="bg-black h-full rounded-lg p-3 overflow-auto scroll scrollbar text-xs sm:text-sm text-white">
-                      Co-developed a web app with a team of 5 that allows
-                      students to exchange thoughts on university courses.{" "}
-                      <br />
-                      <br />
-                      Designed and built the frontend using Figma, HTML/CSS,
-                      JavaScript, and Bootstrap to create a responsive UI with
-                      CRUD functionality.
-                      <br />
-                      <br />
-                      Finished in the top 8 of the 2022 HackED Hackathon.
-                    </div>
-                  </div>
+              </Link>
+            </div>
+          </div>
+          {/* Project card */}
+          <div className="bg-black w-full flex p-3 gap-3">
+            <div className="w-2/5 h-full">
+              <div className="w-full h-full bg-red-200 p-3 aspect-square"></div>
+            </div>
+            <div className="w-3/5 flex flex-col justify-between text-white">
+              <div className="w-full h-full">
+                Safe Contact
+                <br />
+                <span className="text-xs sm:text-sm font-light">GEOLOCATION APP</span>
+                <br />
+                <br />
+                <br />
+              </div>
+              <Link href="https://devpost.com/software/safe-contact">
+                <a className="underline font-bold text-sm flex flex-row items-center">
+                  FULL PROJECT
+                  <HiOutlineArrowNarrowRight />
                 </a>
-              </SwiperSlide>
-              <SwiperSlide className="flex justify-center items-center">
-                <a
-                  href="https://github.com/jdrco/TileDrag"
-                  className="rounded-[14px] bg-gradient-to-tr from-yellow-600 to-orange-800 h-[45%] sm:h-[50%] md:h-[55%] w-[80%] p-2 sm:p-3 shadow-md"
-                >
-                  <div className="h-full w-full flex flex-col">
-                    <div className="w-full h-auto flex flex-row justify-between mb-2">
-                      <div className="flex flex-col text-white text-sm sm:text-[20px]">
-                        <div className="leading-3 sm:leading-6">Tile Drag</div>
-                        <div className="text-[10px] sm:text-[12px]">
-                          Frontend Web Arcade Game
-                        </div>
-                      </div>
-                      <div className="flex flex-row gap-2 text-white text-3xl sm:text-5xl">
-                        <FaJsSquare />
-                      </div>
-                    </div>
-                    <div className="bg-black h-full rounded-lg p-3 overflow-auto scroll scrollbar text-xs sm:text-sm text-white">
-                      Built a web arcade game with Vanilla JavaScript that
-                      emulates real-time online chess gameplay.
-                      <br />
-                      <br />
-                      Implemented drag and drop functionality with grid snapping
-                      logic resulting in an interactive UX.
-                    </div>
-                  </div>
+              </Link>
+            </div>
+          </div>
+          {/* Project card */}
+          <div className="bg-black w-full flex p-3 gap-3">
+            <div className="w-2/5 h-full">
+              <div className="w-full h-full bg-sky-200 p-3 aspect-square"></div>
+            </div>
+            <div className="w-3/5 flex flex-col justify-between text-white">
+              <div className="w-full h-full">
+                Courseberta
+                <br />
+                <span className="text-xs sm:text-sm font-light">STREAMLINING APP</span>
+                <br />
+                <br />
+                <br />
+              </div>
+              <Link href="https://devpost.com/software/courseberta">
+                <a className="underline font-bold text-sm flex flex-row items-center">
+                  FULL PROJECT
+                  <HiOutlineArrowNarrowRight />
                 </a>
-              </SwiperSlide>
-              <SwiperSlide className="flex justify-center items-center">
-                <a
-                  href="https://www.uafc.ca/projects"
-                  className="rounded-[14px] bg-gradient-to-tr from-violet-600 to-rose-800 h-[45%] sm:h-[50%] md:h-[55%] w-[80%] p-2 sm:p-3 shadow-md"
-                >
-                  <div className="h-full w-full flex flex-col">
-                    <div className="w-full h-auto flex flex-row justify-between mb-2">
-                      <div className="flex flex-col text-white text-sm sm:text-[20px]">
-                        <div className="leading-3 sm:leading-6">
-                          Miniature Robotic Arm
-                        </div>
-                        <div className="text-[10px] sm:text-[12px]">
-                          Hardware Design Project
-                        </div>
-                      </div>
-                      <div className="flex flex-row gap-2 text-white text-3xl sm:text-5xl">
-                        <SiCplusplus />
-                        <SiArduino />
-                      </div>
-                    </div>
-                    <div className="bg-black h-full rounded-lg p-3 overflow-auto scroll scrollbar text-xs sm:text-sm text-white">
-                      Assembled a robotic arm with three degrees of movement
-                      using C/C++ programming and an Arduino.
-                      <br />
-                      <br />
-                      Documented the arm’s assembly process and the
-                      breadboarding of servo motors to the Arduino board.
-                    </div>
-                  </div>
+              </Link>
+            </div>
+          </div>
+          {/* Project card */}
+          <div className="bg-black w-full flex p-3 gap-3">
+            <div className="w-2/5 h-full">
+              <div className="w-full h-full bg-lime-200 p-3 aspect-square"></div>
+            </div>
+            <div className="w-3/5 flex flex-col justify-between text-white">
+              <div className="w-full h-full">
+                Phonebook
+                <br />
+                <span className="text-xs sm:text-sm font-light">RESTful API</span>
+                <br />
+                <br />
+                <br />
+              </div>
+              <Link href="https://github.com/jdrco/phonebook-server">
+                <a className="underline font-bold text-sm flex flex-row items-center">
+                  FULL PROJECT
+                  <HiOutlineArrowNarrowRight />
                 </a>
-              </SwiperSlide>
-              <SwiperSlide className="flex justify-center items-center">
-                <a
-                  href="https://github.com/jdrco/Goobers"
-                  className="rounded-[14px] bg-gradient-to-tr from-yellow-600 to-blue-800 h-[45%] sm:h-[50%] md:h-[55%] w-[80%] p-2 sm:p-3 shadow-md"
-                >
-                  <div className="h-full w-full flex flex-col">
-                    <div className="w-full h-auto flex flex-row justify-between mb-2">
-                      <div className="flex flex-col text-white text-sm sm:text-[20px]">
-                        <div className="leading-3 sm:leading-6">
-                          Stock Analyzer
-                        </div>
-                        <div className="text-[10px] sm:text-[12px]">
-                          HackED Beta Hackathon Project
-                        </div>
-                      </div>
-                      <div className="flex flex-row gap-2 text-white text-3xl sm:text-5xl">
-                        <FaPython />
-                      </div>
-                    </div>
-                    <div className="bg-black h-full rounded-lg p-3 overflow-auto scroll scrollbar text-xs sm:text-sm text-white">
-                      Developed a stock analyzer using Python for data analysis
-                      and the Yahoo Finance API to fetch live data.
-                      <br />
-                      <br />
-                      Graphically displayed a stock&apos;s moving average using
-                      NumPy and Matplotlib.
-                    </div>
-                  </div>
+              </Link>
+            </div>
+          </div>
+          {/* Project card */}
+          <div className="bg-black w-full flex p-3 gap-3">
+            <div className="w-2/5 h-full">
+              <div className="w-full h-full bg-orange-200 p-3 aspect-square"></div>
+            </div>
+            <div className="w-3/5 flex flex-col justify-between text-white">
+              <div className="w-full h-full">
+                Tile Drag
+                <br />
+                <span className="text-xs sm:text-sm font-light">WEB JS GAME</span>
+                <br />
+                <br />
+                <br />
+              </div>
+              <Link href="https://github.com/jdrco/TileDrag">
+                <a className="underline font-bold text-sm flex flex-row items-center">
+                  FULL PROJECT
+                  <HiOutlineArrowNarrowRight />
                 </a>
-              </SwiperSlide>
-            </Swiper>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

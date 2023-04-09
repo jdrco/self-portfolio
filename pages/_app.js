@@ -4,21 +4,22 @@ import Head from 'next/head';
 
 function MyApp({ Component, pageProps }) {
   return (
-    <>
+    <div>
       <Head>
         <title>Jared Drueco | Home</title>
         <meta name="keywords" content="Jared, Drueco" />
         <meta
           name="description"
           content="Hi, I'm Jared!
-              Currently, I'm in my third year of software engineering at
-              the University of Alberta as a co-op student."
+              Currently, studying software engineering at
+              the University of Alberta."
         />
+        <link rel="shortcut icon" href="/bear.png" />
       </Head>
       <Layout>
         <Component {...pageProps} />
       </Layout>
-    </>
+    </div>
   );
 }
 

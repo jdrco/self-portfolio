@@ -1,12 +1,32 @@
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Navbar from './Navbar';
+import { useState, useEffect } from 'react';
+import Footer from './Footer';
 
 const Layout = ({ children }) => {
+  const [windowHeight, setWindowHeight] = useState(0);
+
+  useEffect(() => {
+    setWindowHeight(window.innerHeight);
+    function handleResize() {
+      setWindowHeight(window.innerHeight);
+    }
+    window.addEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
+
+  const navbarHeight = 80; // Set your navbar height here
+  const bodyHeight = windowHeight - navbarHeight;
+  console.log(bodyHeight);
+
   return (
-    <div className="content max-w-[22rem] sm:max-w-xl md:max-w-2xl flex mx-auto justify-between h-screen flex-col absolute inset-0">
+    <div className="max-w-[22rem] sm:max-w-xl md:max-w-5xl flex mx-auto h-screen flex-col absolute inset-0 scroll no-scrollbar">
       <Navbar />
-      <div>{children}</div>
-      <Footer />
+      <div className="h-full flex-1" style={{ height: bodyHeight }}>
+        {children}
+      </div>
+      {/* <Footer /> */}
     </div>
   );
 };
