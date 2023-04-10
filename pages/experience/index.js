@@ -90,7 +90,7 @@ const Experience = () => {
           </div>
           <div className="h-full w-1/2 text-xs sm:text-sm">
             <div className="h-full sm:w-1/2 text-xs sm:text-sm">
-              PROGRAMMED APPLICATIONS AND EXTENSIONS FOR A CLOUD BASED ERP AND
+              PROGRAMMED APPLICATIONS AND EXTENSIONS FOR CLOUD BASED ERP AND
               CRM SYSTEMS
               <br />
               <br />
