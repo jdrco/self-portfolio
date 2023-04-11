@@ -22,7 +22,7 @@ const Projects = () => {
             strong grasp of modern software design principles and techniques.
           </span>
         </div>
-        <div className="sm:w-1/2 flex flex-col gap-4 sm:px-4 overflow-y-auto scrollbar pr-1 sm:pr-3 pb-3 sm:pb-0">
+        <div className="sm:w-1/2 flex flex-col gap-4 sm:px-4 sm:overflow-y-auto scrollbar sm:pr-3 pb-3 sm:pb-0">
           {/* Project card */}
           <div className="bg-black w-full flex p-3 gap-3">
             <div className="w-2/5 h-full">

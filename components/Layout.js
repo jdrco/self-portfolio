@@ -17,7 +17,6 @@ const Layout = ({ children }) => {
 
   const navbarHeight = 80; // Set your navbar height here
   const bodyHeight = windowHeight - navbarHeight;
-  console.log(bodyHeight);
 
   return (
     <div className="max-w-[22rem] sm:max-w-xl md:max-w-5xl flex mx-auto h-screen flex-col absolute inset-0 scroll no-scrollbar overflow-x-hidden">
