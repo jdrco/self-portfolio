@@ -13,7 +13,7 @@ const Projects = () => {
         <title>Jared Drueco | Projects</title>
         <meta name="keywords" content="projects" />
       </Head>
-      <div className="w-full h-full flex flex-col sm:flex-row sm:pb-[80px]">
+      <div className="w-full h-full flex flex-col sm:flex-row sm:pb-[80px] overflow-y-auto no-scrollbar">
         <div className="sm:w-1/2 border-b-[1px] sm:border-b-0 sm:border-r-[1px] border-black mb-3 sm:mb-0 pb-3 sm:px-3">
           <span className="text-2xl sm:text-3xl">(PROJECTS) </span>
           <span className="text-sm sm:text-base">
