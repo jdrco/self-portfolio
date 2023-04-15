@@ -17,9 +17,9 @@ const Projects = () => {
         <div className="sm:w-1/2 border-b-[1px] sm:border-b-0 sm:border-r-[1px] border-black mb-3 sm:mb-0 pb-3 sm:px-3">
           <span className="text-2xl sm:text-3xl">(PROJECTS) </span>
           <span className="text-sm sm:text-base">
-            My experience in development and engineering showcases my ability to
-            adapt to new technologies and approaches, while demonstrating a
-            strong grasp of modern software design principles and techniques.
+            My experience in full-stack development showcases my ability to
+            adapt to new technologies, while demonstrating a strong grasp of
+            modern software design principles.
           </span>
         </div>
         <div className="sm:w-1/2 flex flex-col gap-4 sm:px-4 sm:overflow-y-auto scrollbar sm:pr-3 pb-3 sm:pb-0">
@@ -35,7 +35,7 @@ const Projects = () => {
                 PORTFOLIO
                 <br />
                 <div className="text-xs sm:text-sm font-light leading-tight">
-                  PROGRAMMED THIS WEBSITE MYSELF :)
+                  I PROGRAMMED THIS VERY PORTFOLIO WEBSITE MYSELF :)
                 </div>
                 <br />
                 <br />

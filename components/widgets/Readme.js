@@ -16,13 +16,6 @@ const Readme = () => {
           }}
         />
       </div>
-      {/* <Link href="/about">
-        <button className="absolute h-12 w-12 bottom-6 right-6 bg-white bg-opacity-20 backdrop-blur-2xl rounded-full">
-          <div className="flex items-center justify-center">
-            <HiOutlineArrowNarrowRight />
-          </div>
-        </button>
-      </Link> */}
     </div>
   );
 };
