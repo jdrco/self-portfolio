@@ -1,7 +1,7 @@
 export default function Home() {
   return (
     <>
-      <div className="w-full h-full flex flex-col">
+      <div className="w-full h-full flex flex-col dark:text-white">
         <div className="w-full flex flex-col ">
           <div className="w-36 h-36 rounded-full bg-red-300 overflow-hidden">
             <img

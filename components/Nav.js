@@ -15,7 +15,7 @@ const Nav = ({ handleToggle }) => {
             height={25}
           />
           <Link href="/">
-            <a className="text-black font-medium">Portfolio</a>
+            <a className="text-black font-medium dark:text-white">Portfolio</a>
           </Link>
         </div>
         <Toggle handleToggle={handleToggle} />
