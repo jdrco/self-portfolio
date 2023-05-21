@@ -24,7 +24,7 @@
 
   .scrollbar::-webkit-scrollbar {
     width: 5px;
-    height: 20px
+    height: 20px;
   }
 
   .scrollbar::-webkit-scrollbar-thumb {
@@ -37,10 +37,6 @@
     background: #686868;
     cursor: pointer;
   }
-}
-
-.card {
-  @apply rounded-2xl sm:rounded-3xl overflow-hidden
 }
 
 * {
