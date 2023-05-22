@@ -14,7 +14,7 @@ const Navbar = () => {
         <div className="flex items-center gap-2 h-full ml-2">
           <Image
             alt=""
-            src="/bear.png"
+            src="/bear32.png"
             className="mx-2 object-contain w-full h-full relative"
             width={25}
             height={25}

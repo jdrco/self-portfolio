@@ -25,7 +25,7 @@ export default function Home() {
         </div>
         <div className="text-xl sm:text-2xl my-12 text-left sm:w-4/5">
           Hey, I&apos;m Jared!{' '}
-          <span className="text-black/40 dark:text-white/40">
+          <span className="text-black/50 dark:text-white/40">
             - 4th year software engineering student at UofA. Passionate about
             building impactful products. Really into UI/UX development :)
           </span>
@@ -46,7 +46,7 @@ export default function Home() {
               />
               <div className="text-xl sm:text-2xl">
                 InsideDesk Inc
-                <div className="text-black/40">Software Developer Intern</div>
+                <div className="text-black/50">Software Developer Intern</div>
               </div>
             </div>
             <div className="w-full sm:w-1/2 sm:aspect-square backdrop-blur-md bg-gray-300/50 rounded-3xl border-2 flex flex-col justify-between p-4">
@@ -58,7 +58,7 @@ export default function Home() {
               />
               <div className="text-xl sm:text-2xl">
                 Geoson Solutions
-                <div className="text-black/40">Software Developer Intern</div>
+                <div className="text-black/50">Software Developer Intern</div>
               </div>
             </div>
           </div>
@@ -78,8 +78,8 @@ export default function Home() {
               />
               <div className="text-xl sm:text-2xl">
                 UofA Blueprint Chapter
-                <div className="text-black/40">VP of Engineering</div>
-                <div className="text-black/40">Project Developer</div>
+                <div className="text-black/50">VP of Engineering</div>
+                <div className="text-black/50">Project Developer</div>
               </div>
             </div>
             <div className="w-full sm:w-1/2 sm:aspect-square backdrop-blur-md bg-gray-300/50 rounded-3xl border-2 flex flex-col justify-between p-4">
@@ -91,8 +91,8 @@ export default function Home() {
               />
               <div className="text-xl sm:text-2xl">
                 UofA Future Creators
-                <div className="text-black/40">Co-President</div>
-                <div className="text-black/40">VP of Technology</div>
+                <div className="text-black/50">Co-President</div>
+                <div className="text-black/50">VP of Technology</div>
               </div>
             </div>
           </div>
@@ -104,7 +104,7 @@ export default function Home() {
           <div className="text-xl">Project Experience</div>
           <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 mt-2">
             {/* Project cards */}
-            <div className="bg-white text-black/40 w-full flex flex-col justify-between aspect-square rounded-xl border-2 p-1">
+            <div className="bg-white text-black/50 w-full flex flex-col justify-between aspect-square rounded-xl border-2 p-1">
               <div className="h-full flex flex-col justify-between text-xs">
                 <div className="flex justify-between">
                   <Link href="https://medium.com/@uofablueprint/international-students-association-project-page-1f65f79562f0">
@@ -125,7 +125,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="bg-white text-black/40 w-full flex flex-col justify-between aspect-square rounded-xl border-2 p-1">
+            <div className="bg-white text-black/50 w-full flex flex-col justify-between aspect-square rounded-xl border-2 p-1">
               <div className="h-full flex flex-col justify-between text-xs">
                 <div className="flex justify-between">
                   <Link href="https://github.com/jdrco/APIC2023">
@@ -145,7 +145,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="bg-white text-black/40 w-full flex flex-col justify-between aspect-square rounded-xl border-2 p-1">
+            <div className="bg-white text-black/50 w-full flex flex-col justify-between aspect-square rounded-xl border-2 p-1">
               <div className="h-full flex flex-col justify-between text-xs">
                 <div className="flex justify-between">
                   <Link href="https://devpost.com/software/journai-8wl03y">
@@ -166,7 +166,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="bg-white text-black/40 w-full flex flex-col justify-between aspect-square rounded-xl border-2 p-1">
+            <div className="bg-white text-black/50 w-full flex flex-col justify-between aspect-square rounded-xl border-2 p-1">
               <div className="h-full flex flex-col justify-between text-xs">
                 <div className="flex justify-between">
                   <Link href="https://github.com/jdrco/self-portfolio">
@@ -187,7 +187,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="bg-white text-black/40 w-full flex flex-col justify-between aspect-square rounded-xl border-2 p-1">
+            <div className="bg-white text-black/50 w-full flex flex-col justify-between aspect-square rounded-xl border-2 p-1">
               <div className="h-full flex flex-col justify-between text-xs">
                 <div className="flex justify-between">
                   <Link href="https://devpost.com/software/safe-contact">
@@ -208,7 +208,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="bg-white text-black/40 w-full flex flex-col justify-between aspect-square rounded-xl border-2 p-1">
+            <div className="bg-white text-black/50 w-full flex flex-col justify-between aspect-square rounded-xl border-2 p-1">
               <div className="h-full flex flex-col justify-between text-xs">
                 <div className="flex justify-between">
                   <Link href="https://github.com/jdrco/phonebook-server">
@@ -229,7 +229,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="bg-white text-black/40 w-full flex flex-col justify-between aspect-square rounded-xl border-2 p-1">
+            <div className="bg-white text-black/50 w-full flex flex-col justify-between aspect-square rounded-xl border-2 p-1">
               <div className="h-full flex flex-col justify-between text-xs">
                 <div className="flex justify-between">
                   <Link href="https://devpost.com/software/courseberta">
@@ -250,7 +250,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="bg-white text-black/40 w-full flex flex-col justify-between aspect-square rounded-xl border-2 p-1">
+            <div className="bg-white text-black/50 w-full flex flex-col justify-between aspect-square rounded-xl border-2 p-1">
               <div className="h-full flex flex-col justify-between text-xs">
                 <div className="flex justify-between">
                   <Link href="https://github.com/jdrco/TileDrag">
@@ -262,7 +262,7 @@ export default function Home() {
                       <HiOutlineArrowNarrowRight />
                     </a>
                   </Link>
-                  <div>01/2022</div>
+                  <div>08/2021</div>
                 </div>
                 <div className="text-black text-4xl w-full flex justify-center items-center">
                   <TbBrandAppleArcade />
@@ -279,7 +279,7 @@ export default function Home() {
           <div className="w-full grid grid-cols-2 sm:grid-cols-4 mt-2 text-xs">
             <div className="w-full aspect-square sm:border-b-2 p-2">
               <div>Program Languages</div>
-              <div className="text-black/40 dark:text-white/40">
+              <div className="text-black/50 dark:text-white/40">
                 C
                 <br /> C++ <br />
                 Python <br /> JavaScript <br /> TypeScript <br /> Java
@@ -287,7 +287,7 @@ export default function Home() {
             </div>
             <div className="w-full aspect-square sm:border-b-2 p-2">
               <div>Frontend Technologies</div>
-              <div className="text-black/40 dark:text-white/40">
+              <div className="text-black/50 dark:text-white/40">
                 HTML
                 <br />
                 CSS
@@ -305,7 +305,7 @@ export default function Home() {
             </div>
             <div className="w-full aspect-square border-b-2 p-2">
               <div>Backend Technologies</div>
-              <div className="text-black/40 dark:text-white/40">
+              <div className="text-black/50 dark:text-white/40">
                 Node.js
                 <br />
                 Express.js
@@ -323,7 +323,7 @@ export default function Home() {
             </div>
             <div className="w-full aspect-square border-b-2 p-2">
               <div>Developer Tools</div>
-              <div className="text-black/40 dark:text-white/40">
+              <div className="text-black/50 dark:text-white/40">
                 Docker
                 <br />
                 Next.js
@@ -343,13 +343,13 @@ export default function Home() {
       <div className="relative w-full overflow-visible mb-24">
         <div className="relative">
           <div className="text-xl">Contact</div>
-          <div className="w-full flex flex-col sm:flex-row sm:gap-2 mt-2 text-black/40 dark:text-white/40">
+          <div className="w-full flex flex-col sm:flex-row sm:gap-2 mt-2 text-black/50 dark:text-white/40">
             <div>
               Feel free to reach out and chat about{' '}
               <span className="italic">anything!</span>
             </div>
             <div>
-              Connect with me through{' '}
+              You can connect with me through{' '}
               <a
                 href="https://www.linkedin.com/in/jareddrueco/"
                 className="underline"
