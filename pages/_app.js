@@ -6,15 +6,12 @@ function MyApp({ Component, pageProps }) {
   return (
     <div>
       <Head>
-        <title>Jared Drueco | Home</title>
-        <meta name="keywords" content="Jared, Drueco" />
+        <title>Jared Drueco</title>
         <meta
           name="description"
-          content="Hi, I'm Jared!
-              Currently, studying software engineering at
-              the University of Alberta."
+          content="Hi, I'm Jared! I'm a software engineering student at the University of Alberta. Explore my portfolio website to see my experience, projects, and to learn more about my skills in software development and problem-solving."
         />
-        <link rel="shortcut icon" href="/bear.png" />
+        <link rel="icon" href="/bear32.png" />
       </Head>
       <Layout>
         <Component {...pageProps} />

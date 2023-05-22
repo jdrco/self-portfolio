@@ -1,30 +1,25 @@
-import Navbar from "./Navbar";
-import { useState, useEffect } from "react";
+import Nav from './Nav';
+import React, { useState } from 'react';
 
 const Layout = ({ children }) => {
-  const [windowHeight, setWindowHeight] = useState(0);
+  const [isDarkMode, setIsDarkMode] = useState(false);
 
-  useEffect(() => {
-    setWindowHeight(window.innerHeight);
-    function handleResize() {
-      setWindowHeight(window.innerHeight);
-    }
-    window.addEventListener("resize", handleResize);
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, []);
-
-  const navbarHeight = 80; // Set your navbar height here
-  const bodyHeight = windowHeight - navbarHeight;
+  const handleToggle = () => {
+    setIsDarkMode(!isDarkMode);
+  };
 
   return (
-    <div className="max-w-[22rem] sm:max-w-xl md:max-w-5xl flex mx-auto h-screen flex-col absolute inset-0 scroll no-scrollbar overflow-x-hidden">
-      <Navbar />
-      <div className="flex-1" style={{ height: bodyHeight }}>
-        {children}
+    <div
+      className={`main-content w-screen h-screen overflow-x-hidden ${
+        isDarkMode ? 'dark' : ''
+      }`}
+    >
+      <div className="w-full h-auto flex justify-center bg-white dark:bg-neutral-800">
+        <div className="max-w-sm sm:max-w-screen-md flex flex-col">
+          <Nav handleToggle={handleToggle} />
+          {children}
+        </div>
       </div>
-      {/* <Footer /> */}
     </div>
   );
 };
