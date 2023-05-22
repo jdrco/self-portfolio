@@ -15,7 +15,7 @@ const Layout = ({ children }) => {
       }`}
     >
       <div className="w-full h-auto flex justify-center bg-white dark:bg-neutral-800">
-        <div className="max-w-sm sm:max-w-screen-md flex flex-col">
+        <div className="max-w-sm sm:max-w-screen-md flex flex-col px-4 sm:px-0">
           <Nav handleToggle={handleToggle} />
           {children}
         </div>
