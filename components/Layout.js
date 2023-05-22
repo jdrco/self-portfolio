@@ -10,10 +10,12 @@ const Layout = ({ children }) => {
 
   return (
     <div
-      className={`main-contenti w-screen h-screen  ${isDarkMode ? 'dark' : ''}`}
+      className={`main-content w-screen h-screen overflow-x-hidden ${
+        isDarkMode ? 'dark' : ''
+      }`}
     >
-      <div className="bg-white dark:bg-stone-900">
-        <div className="w-1/2 mx-auto flex flex-col scroll no-scrollbar overflow-x-hidden">
+      <div className="w-full h-auto flex justify-center bg-white dark:bg-neutral-800">
+        <div className="max-w-sm sm:max-w-screen-md flex flex-col">
           <Nav handleToggle={handleToggle} />
           {children}
         </div>

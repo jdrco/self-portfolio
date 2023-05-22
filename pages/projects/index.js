@@ -1,7 +1,11 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import { HiOutlineArrowNarrowRight, HiOutlineDeviceMobile } from 'react-icons/hi';
-import { BsFillFilePersonFill, BsFillJournalBookmarkFill, BsPhone } from 'react-icons/bs';
+import { HiOutlineArrowNarrowRight } from 'react-icons/hi';
+import {
+  BsFillFilePersonFill,
+  BsFillJournalBookmarkFill,
+  BsPhone,
+} from 'react-icons/bs';
 import { BiCurrentLocation } from 'react-icons/bi';
 import { FaUniversity } from 'react-icons/fa';
 import { TbApi, TbBrandAppleArcade } from 'react-icons/tb';

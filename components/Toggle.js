@@ -8,7 +8,7 @@ const Toggle = ({ handleToggle }) => {
     handleToggle();
   };
 
-  const toggleClasses = `relative inline-block w-12 h-7 rounded-full bg-gray-300 focus:outline-none ${
+  const toggleClasses = `relative inline-block w-12 h-7 rounded-full bg-gray-400 focus:outline-none ${
     isChecked ? 'bg-yellow-400' : ''
   }`;
 

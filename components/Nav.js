@@ -4,9 +4,9 @@ import Toggle from './Toggle';
 
 const Nav = ({ handleToggle }) => {
   return (
-    <div className="my-12 text-lg">
+    <div className="my-9">
       <div className="flex justify-between items-center">
-        <div className="flex items-center gap-2 h-full ml-2">
+        <div className="flex items-center gap-2 h-full">
           <Image
             alt=""
             src="/bear.png"
@@ -15,7 +15,7 @@ const Nav = ({ handleToggle }) => {
             height={25}
           />
           <Link href="/">
-            <a className="text-black font-medium dark:text-white">Portfolio</a>
+            <a className="text-xl dark:text-white">Portfolio</a>
           </Link>
         </div>
         <Toggle handleToggle={handleToggle} />
