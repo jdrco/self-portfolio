@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div className="w-full h-full flex flex-col dark:text-white">
       <div className="w-full flex flex-col items-start">
-        <div className="w-36 h-36 rounded-full bg-red-300 overflow-hidden border-2">
+        <div className="w-32 h-40 rounded-3xl overflow-hidden">
           <img
             className="object-cover h-full w-full"
             src="/pf.JPG"
@@ -183,7 +183,7 @@ export default function Home() {
                 <div className="text-black text-4xl w-full flex justify-center items-center">
                   <BsFillFilePersonFill />
                 </div>
-                <div>Programmed this site myself :)</div>
+                <div>The website you&apos;re on :p</div>
               </div>
             </div>
 
@@ -204,7 +204,7 @@ export default function Home() {
                 <div className="text-black text-4xl w-full flex justify-center items-center">
                   <BiCurrentLocation />
                 </div>
-                <div>React Native mobile app</div>
+                <div>Monitoring app / Dashboard</div>
               </div>
             </div>
 
@@ -322,7 +322,7 @@ export default function Home() {
               </div>
             </div>
             <div className="w-full aspect-square border-b-2 p-2">
-              <div>Developer Tools</div>
+              <div>Development Tools</div>
               <div className="text-black/50 dark:text-white/40">
                 Docker
                 <br />
@@ -331,6 +331,8 @@ export default function Home() {
                 Git
                 <br />
                 Linux
+                <br />
+                CI/CD - Github Actions, Bitbucket, Azure
                 <br />
                 Vim, Neovim
                 <br />
