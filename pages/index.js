@@ -39,7 +39,7 @@ export default function Home() {
           <div className="w-full h-auto flex flex-col sm:flex-row gap-4 sm:gap-6 mt-2">
             <div className="w-full sm:w-1/2 sm:aspect-square backdrop-blur-md bg-gray-300/50 rounded-3xl border-2 flex flex-col justify-between p-4">
               <Details
-                innerText={`Developing robust web automation infrastrucutres to streamline revenue cycle management
+                innerText={`Developing robust web automation infrastructures to streamline revenue cycle management
 
                 nl nl
                 Jan 2023 - Present
@@ -223,7 +223,7 @@ export default function Home() {
                       target="_blank"
                       className="underline flex items-center hover:cursor-pointer"
                     >
-                      Phonebook API
+                      Phone Book API
                       <HiOutlineArrowNarrowRight />
                     </a>
                   </Link>
