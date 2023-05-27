@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div className="w-full h-full flex flex-col dark:text-white">
       <div className="w-full flex flex-col items-start">
-        <div className="w-32 h-40 rounded-3xl overflow-hidden">
+        <div className="w-28 h-36 rounded-3xl overflow-hidden">
           <img
             className="object-cover h-full w-full"
             src="/pf.JPG"
@@ -39,7 +39,8 @@ export default function Home() {
           <div className="w-full h-auto flex flex-col sm:flex-row gap-4 sm:gap-6 mt-2">
             <div className="w-full sm:w-1/2 sm:aspect-square backdrop-blur-md bg-gray-300/50 rounded-3xl border-2 flex flex-col justify-between p-4">
               <Details
-                innerText={`Building web scraping infrastructures to automate revenue cycle management
+                innerText={`Developing robust web automation infrastrucutres to streamline revenue cycle management
+
                 nl nl
                 Jan 2023 - Present
               `}
@@ -71,7 +72,7 @@ export default function Home() {
           <div className="w-full h-auto flex flex-col sm:flex-row gap-4 sm:gap-6 mt-2">
             <div className="w-full sm:w-1/2 sm:aspect-square backdrop-blur-md bg-gray-300/50 rounded-3xl border-2 flex flex-col justify-between p-4">
               <Details
-                innerText={`Developing full stack web and mobile applications for non-profit organizations
+                innerText={`Building full stack web and mobile applications for non-profit organizations
                 nl nl
                 Sep 2022 - Present
               `}
@@ -141,7 +142,10 @@ export default function Home() {
                 <div className="text-black text-5xl w-full flex justify-center items-center">
                   <AiOutlineAlert />
                 </div>
-                <div>Outage response tracker</div>
+                <div>
+                  <div>[Hackathon Winner]</div>
+                  <div>Outage response tracker</div>
+                </div>
               </div>
             </div>
 
@@ -204,7 +208,10 @@ export default function Home() {
                 <div className="text-black text-4xl w-full flex justify-center items-center">
                   <BiCurrentLocation />
                 </div>
-                <div>Monitoring app / Dashboard</div>
+                <div>
+                  <div>[Hackathon Winner]</div>
+                  <div>Monitoring app / Dashboard</div>
+                </div>
               </div>
             </div>
 
@@ -294,6 +301,8 @@ export default function Home() {
                 <br />
                 React.js
                 <br />
+                Next.js
+                <br />
                 React Native
                 <br />
                 Tailwind CSS
@@ -326,11 +335,11 @@ export default function Home() {
               <div className="text-black/50 dark:text-white/40">
                 Docker
                 <br />
-                Next.js
-                <br />
                 Git
                 <br />
                 Linux
+                <br />
+                Puppeteer, Selenium
                 <br />
                 CI/CD - Github Actions, Bitbucket, Azure
                 <br />
