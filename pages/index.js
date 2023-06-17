@@ -27,7 +27,7 @@ export default function Home() {
           Hey, I&apos;m Jared!{' '}
           <span className="text-black/50 dark:text-white/40">
             - 4th year software engineering student at UofA. Passionate about
-            building impactful products. Really into UI/UX development :)
+            building impactful products!
           </span>
         </div>
       </div>
