@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div className="w-full h-full flex flex-col dark:text-white">
       <div className="w-full flex flex-col items-start">
-        <div className="w-28 h-36 rounded-3xl overflow-hidden">
+        <div className="w-36 h-36 rounded-full overflow-hidden">
           <img
             className="object-cover h-full w-full"
             src="/pf.JPG"

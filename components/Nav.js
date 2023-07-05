@@ -7,15 +7,8 @@ const Nav = ({ handleToggle }) => {
     <div className="my-9">
       <div className="flex justify-between items-center">
         <div className="flex items-center gap-2 h-full">
-          <Image
-            alt=""
-            src="/bear32.png"
-            className="mx-2 object-contain w-full h-full relative"
-            width={25}
-            height={25}
-          />
           <Link href="/">
-            <a className="text-xl dark:text-white">Portfolio</a>
+            <a className="text-xl sm:text-2xl dark:text-white">Jared Drueco</a>
           </Link>
         </div>
         <Toggle handleToggle={handleToggle} />
