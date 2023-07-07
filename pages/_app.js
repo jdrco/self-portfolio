@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
           name="description"
           content="Hi, I'm Jared! I'm a software engineering student at the University of Alberta. Explore my portfolio website to see my experience, projects, and to learn more about my skills in software development and problem-solving."
         />
-        <link rel="icon" href="/bear.png" />
+        <link rel="icon" href="/bear48.png" />
       </Head>
       <Layout>
         <Component {...pageProps} />
