@@ -360,7 +360,6 @@ export default function Home() {
               <span className="italic">anything!</span>
             </div>
             <div>
-              You can connect with me through{' '}
               <a
                 href="https://www.linkedin.com/in/jareddrueco/"
                 className="underline"
@@ -368,8 +367,26 @@ export default function Home() {
                 rel="noopener noreferrer"
               >
                 LinkedIn
-              </a>{' '}
-              or{' '}
+              </a>
+              ,{' '}
+              <a
+                href="https://github.com/jdrco/"
+                className="underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GitHub
+              </a>
+              ,{' '}
+              <a
+                href="https://twitter.com/jaarebeaar/"
+                className="underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Twitter
+              </a>
+              , or{' '}
               <a
                 href="mailto:jdrueco@ualberta.ca?Subject=Website%20Contact"
                 className="underline"
