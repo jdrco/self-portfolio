@@ -8,8 +8,8 @@ const Nav = ({ handleToggle }) => {
       <div className="flex justify-between items-center">
         <div className="flex items-center gap-2 h-full">
           <Link href="/">
-            <a className="text-xl sm:text-2xl dark:text-white">
-              Portfolio - Jared Drueco
+            <a className="text-xl sm:text-2xl dark:text-white underline">
+              jareddrueco.com
             </a>
           </Link>
         </div>

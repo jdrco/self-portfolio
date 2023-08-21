@@ -377,15 +377,6 @@ export default function Home() {
               >
                 GitHub
               </a>
-              ,{' '}
-              <a
-                href="https://twitter.com/jaarebeaar/"
-                className="underline"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Twitter
-              </a>
               , or{' '}
               <a
                 href="mailto:jdrueco@ualberta.ca?Subject=Website%20Contact"
