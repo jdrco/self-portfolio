@@ -32,6 +32,175 @@ export default function Home() {
         </div>
       </div>
       <div className="relative w-full overflow-visible my-12">
+        <div className="blob4 absolute h-5/6 w-11/12 -bottom-10 -left-10 -z-0 opacity-50"></div>
+        <div className="relative">
+          <div className="text-xl">Projects</div>
+          <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 mt-2">
+            <div className="bg-white text-black/50 w-full flex flex-col justify-between aspect-square rounded-xl border-2 p-1">
+              <div className="h-full flex flex-col justify-between text-xs">
+                <div className="flex justify-between">
+                  <Link href="https://github.com/jdrco/APIC2023">
+                    <a
+                      target="_blank"
+                      className="underline flex items-center hover:cursor-pointer"
+                    >
+                      OutageML <HiOutlineArrowNarrowRight />
+                    </a>
+                  </Link>
+                </div>
+                <div className="text-black text-5xl w-full flex justify-center items-center">
+                  <AiOutlineAlert />
+                </div>
+                <div>
+                  <div>[Hackathon Winner]</div>
+                  <div>Outage response tracker</div>
+                </div>
+              </div>
+            </div>
+            <div className="bg-white text-black/50 w-full flex flex-col justify-between aspect-square rounded-xl border-2 p-1">
+              <div className="h-full flex flex-col justify-between text-xs">
+                <div className="flex justify-between">
+                  <Link href="https://devpost.com/software/safe-contact">
+                    <a
+                      target="_blank"
+                      className="underline flex items-center hover:cursor-pointer"
+                    >
+                      Safe Contact
+                      <HiOutlineArrowNarrowRight />
+                    </a>
+                  </Link>
+                </div>
+                <div className="text-black text-4xl w-full flex justify-center items-center">
+                  <BiCurrentLocation />
+                </div>
+                <div>
+                  <div>[Hackathon Winner]</div>
+                  <div>Monitoring app / Dashboard</div>
+                </div>
+              </div>
+            </div>
+            <div className="bg-white text-black/50 w-full flex flex-col justify-between aspect-square rounded-xl border-2 p-1">
+              <div className="h-full flex flex-col justify-between text-xs">
+                <div className="flex justify-between">
+                  <Link href="https://devpost.com/software/courseberta">
+                    <a
+                      target="_blank"
+                      className="underline flex items-center hover:cursor-pointer"
+                    >
+                      Courseberta
+                      <HiOutlineArrowNarrowRight />
+                    </a>
+                  </Link>
+                </div>
+                <div className="text-black text-4xl w-full flex justify-center items-center">
+                  <FaUniversity />
+                </div>
+                <div>
+                  [Hackathon Finalist]
+                  <br />
+                  University info app{' '}
+                </div>
+              </div>
+            </div>
+            <div className="bg-white text-black/50 w-full flex flex-col justify-between aspect-square rounded-xl border-2 p-1">
+              <div className="h-full flex flex-col justify-between text-xs">
+                <div className="flex justify-between">
+                  <Link href="https://devpost.com/software/journai-8wl03y">
+                    <a
+                      target="_blank"
+                      className="underline flex items-center hover:cursor-pointer"
+                    >
+                      JournAI
+                      <HiOutlineArrowNarrowRight />
+                    </a>
+                  </Link>
+                </div>
+                <div className="text-black text-4xl w-full flex justify-center items-center">
+                  <BsFillJournalBookmarkFill />
+                </div>
+                <div>Journal app using NLP</div>
+              </div>
+            </div>
+            <div className="bg-white text-black/50 w-full flex flex-col justify-between aspect-square rounded-xl border-2 p-1">
+              <div className="h-full flex flex-col justify-between text-xs">
+                <div className="flex justify-between">
+                  <Link href="https://medium.com/@uofablueprint/international-students-association-project-page-1f65f79562f0">
+                    <a
+                      target="_blank"
+                      className="underline flex items-center hover:cursor-pointer"
+                    >
+                      ISA ICard
+                      <HiOutlineArrowNarrowRight />
+                    </a>
+                  </Link>
+                </div>
+                <div className="text-black text-4xl w-full flex justify-center items-center">
+                  <BsPhone />
+                </div>
+                <div>React Native mobile app</div>
+              </div>
+            </div>
+            <div className="bg-white text-black/50 w-full flex flex-col justify-between aspect-square rounded-xl border-2 p-1">
+              <div className="h-full flex flex-col justify-between text-xs">
+                <div className="flex justify-between">
+                  <Link href="https://github.com/jdrco/self-portfolio">
+                    <a
+                      target="_blank"
+                      className="underline flex items-center hover:cursor-pointer"
+                    >
+                      Web Portfolio
+                      <HiOutlineArrowNarrowRight />
+                    </a>
+                  </Link>
+                </div>
+                <div className="text-black text-4xl w-full flex justify-center items-center">
+                  <BsFillFilePersonFill />
+                </div>
+                <div>The website you&apos;re on :p</div>
+              </div>
+            </div>
+            <div className="bg-white text-black/50 w-full flex flex-col justify-between aspect-square rounded-xl border-2 p-1">
+              <div className="h-full flex flex-col justify-between text-xs">
+                <div className="flex justify-between">
+                  <Link href="https://github.com/jdrco/phonebook-server">
+                    <a
+                      target="_blank"
+                      className="underline flex items-center hover:cursor-pointer"
+                    >
+                      Phone Book API
+                      <HiOutlineArrowNarrowRight />
+                    </a>
+                  </Link>
+                </div>
+                <div className="text-black text-4xl w-full flex justify-center items-center">
+                  <TbApi />
+                </div>
+                <div>RESTful API</div>
+              </div>
+            </div>
+            <div className="bg-white text-black/50 w-full flex flex-col justify-between aspect-square rounded-xl border-2 p-1">
+              <div className="h-full flex flex-col justify-between text-xs">
+                <div className="flex justify-between">
+                  <Link href="https://github.com/jdrco/TileDrag">
+                    <a
+                      target="_blank"
+                      className="underline flex items-center hover:cursor-pointer"
+                    >
+                      Tile Drag
+                      <HiOutlineArrowNarrowRight />
+                    </a>
+                  </Link>
+                </div>
+                <div className="text-black text-4xl w-full flex justify-center items-center">
+                  <TbBrandAppleArcade />
+                </div>
+                <div>JavaScript arcade game</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="relative w-full overflow-visible my-12">
         <div className="blob2 absolute aspect-square w-32 sm:w-72 -top-4 sm:-top-10 -right-10 rounded-full -z-0"></div>
         <div className="blob1 absolute aspect-square w-24 sm:w-56 -bottom-6 sm:-bottom-10 -left-10 rounded-full -z-0"></div>
         <div className="relative">
@@ -39,10 +208,10 @@ export default function Home() {
           <div className="w-full h-auto flex flex-col sm:flex-row gap-4 sm:gap-6 mt-2">
             <div className="w-full sm:w-1/2 sm:aspect-square backdrop-blur-md bg-gray-300/50 rounded-3xl border-2 flex flex-col justify-between p-4">
               <Details
-                innerText={`Developing robust web automation infrastructures to streamline revenue cycle management
+                innerText={`Developed robust web automation infrastructures to streamline revenue cycle management
 
                 nl nl
-                Jan 2023 - Present
+                Jan 2023 - Aug 2023
               `}
               />
               <div className="text-xl sm:text-2xl">
@@ -100,187 +269,6 @@ export default function Home() {
         </div>
       </div>
       <div className="relative w-full overflow-visible my-12">
-        <div className="blob4 absolute h-5/6 w-11/12 -bottom-10 -left-10 -z-0 opacity-50"></div>
-        <div className="relative">
-          <div className="text-xl">Project Experience</div>
-          <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 mt-2">
-            {/* Project cards */}
-            <div className="bg-white text-black/50 w-full flex flex-col justify-between aspect-square rounded-xl border-2 p-1">
-              <div className="h-full flex flex-col justify-between text-xs">
-                <div className="flex justify-between">
-                  <Link href="https://medium.com/@uofablueprint/international-students-association-project-page-1f65f79562f0">
-                    <a
-                      target="_blank"
-                      className="underline flex items-center hover:cursor-pointer"
-                    >
-                      ISA ICard
-                      <HiOutlineArrowNarrowRight />
-                    </a>
-                  </Link>
-                  <div>Ongoing</div>
-                </div>
-                <div className="text-black text-4xl w-full flex justify-center items-center">
-                  <BsPhone />
-                </div>
-                <div>React Native mobile app</div>
-              </div>
-            </div>
-
-            <div className="bg-white text-black/50 w-full flex flex-col justify-between aspect-square rounded-xl border-2 p-1">
-              <div className="h-full flex flex-col justify-between text-xs">
-                <div className="flex justify-between">
-                  <Link href="https://github.com/jdrco/APIC2023">
-                    <a
-                      target="_blank"
-                      className="underline flex items-center hover:cursor-pointer"
-                    >
-                      OutageML <HiOutlineArrowNarrowRight />
-                    </a>
-                  </Link>
-                  <div>04/2023</div>
-                </div>
-                <div className="text-black text-5xl w-full flex justify-center items-center">
-                  <AiOutlineAlert />
-                </div>
-                <div>
-                  <div>[Hackathon Winner]</div>
-                  <div>Outage response tracker</div>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white text-black/50 w-full flex flex-col justify-between aspect-square rounded-xl border-2 p-1">
-              <div className="h-full flex flex-col justify-between text-xs">
-                <div className="flex justify-between">
-                  <Link href="https://devpost.com/software/journai-8wl03y">
-                    <a
-                      target="_blank"
-                      className="underline flex items-center hover:cursor-pointer"
-                    >
-                      JournAI
-                      <HiOutlineArrowNarrowRight />
-                    </a>
-                  </Link>
-                  <div>01/2023</div>
-                </div>
-                <div className="text-black text-4xl w-full flex justify-center items-center">
-                  <BsFillJournalBookmarkFill />
-                </div>
-                <div>Journal app using NLP</div>
-              </div>
-            </div>
-
-            <div className="bg-white text-black/50 w-full flex flex-col justify-between aspect-square rounded-xl border-2 p-1">
-              <div className="h-full flex flex-col justify-between text-xs">
-                <div className="flex justify-between">
-                  <Link href="https://github.com/jdrco/self-portfolio">
-                    <a
-                      target="_blank"
-                      className="underline flex items-center hover:cursor-pointer"
-                    >
-                      Web Portfolio
-                      <HiOutlineArrowNarrowRight />
-                    </a>
-                  </Link>
-                  <div>08/2022</div>
-                </div>
-                <div className="text-black text-4xl w-full flex justify-center items-center">
-                  <BsFillFilePersonFill />
-                </div>
-                <div>The website you&apos;re on :p</div>
-              </div>
-            </div>
-
-            <div className="bg-white text-black/50 w-full flex flex-col justify-between aspect-square rounded-xl border-2 p-1">
-              <div className="h-full flex flex-col justify-between text-xs">
-                <div className="flex justify-between">
-                  <Link href="https://devpost.com/software/safe-contact">
-                    <a
-                      target="_blank"
-                      className="underline flex items-center hover:cursor-pointer"
-                    >
-                      Safe Contact
-                      <HiOutlineArrowNarrowRight />
-                    </a>
-                  </Link>
-                  <div>08/2022</div>
-                </div>
-                <div className="text-black text-4xl w-full flex justify-center items-center">
-                  <BiCurrentLocation />
-                </div>
-                <div>
-                  <div>[Hackathon Winner]</div>
-                  <div>Monitoring app / Dashboard</div>
-                </div>
-              </div>
-            </div>
-
-            <div className="bg-white text-black/50 w-full flex flex-col justify-between aspect-square rounded-xl border-2 p-1">
-              <div className="h-full flex flex-col justify-between text-xs">
-                <div className="flex justify-between">
-                  <Link href="https://github.com/jdrco/phonebook-server">
-                    <a
-                      target="_blank"
-                      className="underline flex items-center hover:cursor-pointer"
-                    >
-                      Phone Book API
-                      <HiOutlineArrowNarrowRight />
-                    </a>
-                  </Link>
-                  <div>06/2022</div>
-                </div>
-                <div className="text-black text-4xl w-full flex justify-center items-center">
-                  <TbApi />
-                </div>
-                <div>RESTful API</div>
-              </div>
-            </div>
-
-            <div className="bg-white text-black/50 w-full flex flex-col justify-between aspect-square rounded-xl border-2 p-1">
-              <div className="h-full flex flex-col justify-between text-xs">
-                <div className="flex justify-between">
-                  <Link href="https://devpost.com/software/courseberta">
-                    <a
-                      target="_blank"
-                      className="underline flex items-center hover:cursor-pointer"
-                    >
-                      Courseberta
-                      <HiOutlineArrowNarrowRight />
-                    </a>
-                  </Link>
-                  <div>01/2022</div>
-                </div>
-                <div className="text-black text-4xl w-full flex justify-center items-center">
-                  <FaUniversity />
-                </div>
-                <div>Streamlining university info </div>
-              </div>
-            </div>
-
-            <div className="bg-white text-black/50 w-full flex flex-col justify-between aspect-square rounded-xl border-2 p-1">
-              <div className="h-full flex flex-col justify-between text-xs">
-                <div className="flex justify-between">
-                  <Link href="https://github.com/jdrco/TileDrag">
-                    <a
-                      target="_blank"
-                      className="underline flex items-center hover:cursor-pointer"
-                    >
-                      Tile Drag
-                      <HiOutlineArrowNarrowRight />
-                    </a>
-                  </Link>
-                  <div>08/2021</div>
-                </div>
-                <div className="text-black text-4xl w-full flex justify-center items-center">
-                  <TbBrandAppleArcade />
-                </div>
-                <div>JavaScript arcade game</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="relative w-full overflow-visible my-12">
         <div className="relative">
           <div className="text-xl">Technical Skills</div>
           <div className="w-full grid grid-cols-2 sm:grid-cols-4 mt-2 text-xs">
@@ -323,7 +311,7 @@ export default function Home() {
                 <br />
                 Django
                 <br />
-                Postgres SQL
+                Postgres
                 <br />
                 MongoDB
                 <br />
