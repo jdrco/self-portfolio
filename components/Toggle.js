@@ -1,29 +1,28 @@
 import React, { useState } from 'react';
+import { LuMoon, LuSun } from "react-icons/lu";
 
 const Toggle = ({ handleToggle }) => {
-  const [isChecked, setIsChecked] = useState(true);
+  const [isDark, setisDark] = useState(true);
 
   const switchToggle = () => {
-    setIsChecked(!isChecked);
+    setisDark(!isDark);
     handleToggle();
   };
 
-  const toggleClasses = `relative inline-block w-12 h-7 rounded-full bg-gray-400 focus:outline-none ${
-    isChecked ? 'bg-yellow-400' : ''
-  }`;
-
-  const handleClasses = `absolute translate-y-1 w-5 h-5 transform bg-white rounded-full transition-transform ${
-    isChecked ? 'translate-x-6' : 'translate-x-1'
-  }`;
+  const toggleClass = `fixed right-3 sm:right-6 top-3 sm:top-6
+    flex justify-center items-center
+    w-10 h-10 rounded-lg
+    bg-[#805AD5] text-white
+    dark:bg-[#F6D497] dark:text-neutral-800`;
 
   return (
     <div
-      className={toggleClasses}
+      className={toggleClass}
       onClick={switchToggle}
       role="button"
       tabIndex={0}
     >
-      <div className={handleClasses}></div>
+      {isDark ? <LuMoon size={14} /> : <LuSun size={16} />}
     </div>
   );
 };

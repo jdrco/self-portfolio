@@ -6,10 +6,11 @@ module.exports = {
   ],
   darkMode: 'class',
   theme: {
-    extend: {
-      fontFamily: {
-        body: ['Roboto'],
-        fira: ['Fira Code'],
+    container: {
+      padding: {
+        DEFAULT: '0.75rem',
+        xl: '12rem',
+        '2xl': '16rem',
       },
     },
   },

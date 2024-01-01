@@ -1,4 +1,4 @@
-import Nav from './Nav';
+import Toggle from './Toggle';
 import React, { useState } from 'react';
 
 const Layout = ({ children }) => {
@@ -10,13 +10,13 @@ const Layout = ({ children }) => {
 
   return (
     <div
-      className={`main-content w-screen h-screen overflow-x-hidden ${
+      className={`w-screen h-screen ${
         isDarkMode ? 'dark' : ''
       }`}
     >
-      <div className="w-full h-auto flex justify-center bg-white dark:bg-neutral-800">
-        <div className="max-w-sm sm:max-w-screen-md flex flex-col px-4 sm:px-0">
-          <Nav handleToggle={handleToggle} />
+      <div className="w-full h-full overflow-y-auto flex justify-center bg-white dark:bg-neutral-800 dark:text-white">
+        <div className="container h-full flex flex-col justify-center">
+          <Toggle handleToggle={handleToggle} />
           {children}
         </div>
       </div>
