@@ -10,7 +10,7 @@ const Experience = () => {
         </div>
       </div>
       <div className="flex md:flex-row flex-col gap-x-6">
-        <div className="flex md:w-1/3">2023 | Jan - Aug</div>
+        <div className="flex md:w-1/3">2023 Jan - Aug</div>
         <div className="max-w-md flex flex-col md:w-2/3">
             <div>Software Developer Intern, Toronto ON
               <div className="flex">
@@ -20,7 +20,7 @@ const Experience = () => {
         </div>
       </div>
       <div className="flex md:flex-row flex-col gap-x-6">
-        <div className="flex md:w-1/3">2022 | May - Aug</div>
+        <div className="flex md:w-1/3">2022 May - Aug</div>
         <div className="max-w-md flex flex-col md:w-2/3">
             <div>Software Developer Intern, Edmonton AB
               <div className="flex">

@@ -7,7 +7,7 @@ const Contact = () => {
             <div className="md:w-2/3 flex justify-between">
                 <div className="flex gap-x-6">
                     <div className="flex">
-                        <a href="mailto:someone@example.com" className="underline underline-offset-4">Email</a>↗
+                        <a href="mailto:jdrueco@ualberta.ca" className="underline underline-offset-4">Email</a>↗
                     </div>
                     <div className="flex">
                         <a href="https://github.com/jdrco" className="underline underline-offset-4">GitHub</a>↗

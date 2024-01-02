@@ -17,7 +17,6 @@ const Projects = () => {
                 <div className="flex">
                     ▪&nbsp;<a href="https://github.com/jdrco/JournAI" className="underline underline-offset-4">JournAI</a>↗
                 </div>
-                <br />
             </div>
         </div>
     )

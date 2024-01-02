@@ -13,18 +13,17 @@
     "@splinetool/runtime": "^1.0.17",
     "ejs": ">=3.1.7",
     "gsap": "^3.12.4",
-    "next": "12.2.2",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "next": "^14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-icons": "^4.12.0",
-    "theme-change": "^2.1.0",
-    "typewriter-effect": "^2.19.0"
+    "theme-change": "^2.1.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
     "ejs": ">=3.1.7",
     "eslint": "8.19.0",
-    "eslint-config-next": "12.2.2",
+    "eslint-config-next": "^14.0.4",
     "html-webpack-plugin": "^5.5.0",
     "prisma": "^4.0.0",
     "tailwindcss": "^3.1.6"
