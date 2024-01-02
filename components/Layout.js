@@ -15,7 +15,7 @@ const Layout = ({ children }) => {
       }`}
     >
       <div className="w-full h-full overflow-y-auto flex justify-center bg-white dark:bg-neutral-800 dark:text-white">
-        <div className="container h-full flex flex-col justify-center">
+        <div className="container h-auto flex flex-col items-center py-20 px-6 md:px-32">
           <Toggle handleToggle={handleToggle} />
           {children}
         </div>
