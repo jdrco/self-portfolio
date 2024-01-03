@@ -1,3 +1,5 @@
+"use client"
+
 import React, { useState } from 'react';
 import { LuMoon, LuSun } from 'react-icons/lu';
 
