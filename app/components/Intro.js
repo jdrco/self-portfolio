@@ -58,7 +58,7 @@ const Intro = () => {
     return (
         <div className="w-full h-full flex flex-col md:flex-row gap-x-6 border-b-[1px] pb-12">
             <div className="flex md:w-1/3 justify-center">
-                <div className="w-56 h-72 relative sm:ml-[-96px]">
+                <div className="w-56 h-72 relative sm:-ml-12">
                     {!isModelLoaded && (
                         <div className="absolute inset-0 flex items-center justify-center animate-spin text-[#805AD5] dark:text-[#F6D497]">
                             <Loader size={48}/>
