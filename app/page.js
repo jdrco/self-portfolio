@@ -21,8 +21,8 @@ export default function Home() {
           <Toggle handleToggle={handleToggle} />
           <div className="flex flex-col text-sm leading-6">
             <Intro />
-            <Experience />
             <Projects />
+            <Experience />
             <Contact />
           </div>
         </div>

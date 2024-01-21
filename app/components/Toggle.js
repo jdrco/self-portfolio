@@ -15,7 +15,8 @@ const Toggle = ({ handleToggle }) => {
     flex justify-center items-center
     w-10 h-10 md:w-12 md:h-12 rounded-lg
     bg-[#805AD5] text-white
-    dark:bg-[#F6D497] dark:text-neutral-800`;
+    dark:bg-[#F6D497] dark:text-neutral-800
+    z-50`;
 
   return (
     <div

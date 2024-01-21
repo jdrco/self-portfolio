@@ -1,70 +1,45 @@
-import { Link, CornerDownRight, Github } from 'lucide-react';
+import React, { useState } from 'react';
+import ProjectCard from './ProjectCard';
 
 const Projects = () => {
+
+  const projects = [
+    {
+      img: '/MobilityMate.png',
+      title: 'MobilityMate',
+      description: 'HackED 2024',
+      link: '',
+    },
+    {
+      img: '/SafeContact.png',
+      title: 'Safe Contact',
+      description: 'Katy Youth Hacks 2022',
+      link: '',
+    },
+    {
+      img: '/OutageML.png',
+      title: 'OutageML',
+      description: 'APIC Energy Hackathon 2023',
+      link: '',
+    }
+  ]
+
   return (
-    <div className="w-full flex flex-col md:flex-row gap-6 pt-6 pb-12 border-b-[1px]">
-      <div className="flex md:w-1/3">Projects</div>
-      <div className="max-w-md flex flex-col md:w-2/3 gap-1">
-        <p>
-          Some of my notable projects from school, hackathons, and personal
-          initiatives.
+    <div className="w-full flex flex-col border-b-[1px] gap-6 pt-6 pb-12">
+      <div className="w-full flex flex-col">
+        <p className='font-semibold'>
+          Projects
         </p>
         <br />
-        <div className="flex items-center">
-          <CornerDownRight size={14} />
-          &nbsp;
-          <a
-            href="https://devpost.com/software/mobility-mate-9fyp8v"
-            className="underline underline-offset-4"
-          >
-            MobilityMate
-          </a>
-          <Link size={12} className="ml-1" />
-        </div>
-        <div className="flex items-center">
-          <CornerDownRight size={14} />
-          &nbsp;
-          <a
-            href="https://github.com/CMPUT301F23T08/HouseHomey/wiki"
-            className="underline underline-offset-4"
-          >
-            HouseHomey
-          </a>
-          <Link size={12} className="ml-1" />
-        </div>
-        <div className="flex items-center">
-          <CornerDownRight size={14} />
-          &nbsp;
-          <a
-            href="https://github.com/owencooke/OutageML"
-            className="underline underline-offset-4"
-          >
-            OutageML
-          </a>
-          <Link size={12} className="ml-1" />
-        </div>
-        <div className="flex items-center">
-          <CornerDownRight size={14} />
-          &nbsp;
-          <a
-            href="https://devpost.com/software/safe-contact"
-            className="underline underline-offset-4"
-          >
-            Safe Contact
-          </a>
-          <Link size={12} className="ml-1" />
-        </div>
-        <br />
-        <div className="flex items-center">
-          <a
-            href="https://github.com/jdrco"
-            className="underline underline-offset-4"
-          >
-            View all
-          </a>
-          <Github size={14} className="ml-1" />
-        </div>
+        <p>
+          Notable projects from hackathons, school, and personal initiatives.
+        </p>
       </div>
+      {projects.map((project, index) => (
+        <div key={index}>
+          <ProjectCard project={project} />
+        </div>
+      ))}
     </div>
   );
 };
