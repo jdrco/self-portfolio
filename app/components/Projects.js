@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import ProjectCard from './ProjectCard';
 import { Github } from 'lucide-react';
 
@@ -7,19 +7,19 @@ const Projects = () => {
     {
       img: '/MobilityMate.png',
       title: 'MobilityMate',
-      description: 'HackED 2024',
+      description: 'An app that streamlines physiotherapy interactions, providing patients with an exercise-tracking system and AI voice assistant.',
       link: 'https://devpost.com/software/mobility-mate-9fyp8v',
     },
     {
       img: '/SafeContact.png',
       title: 'Safe Contact',
-      description: 'Katy Youth Hacks 2022',
+      description: 'An automated device-tracking system to address safety concerns in isolated travel areas, providing SMS alerts, and location sharing for prompt responses.',
       link: 'https://devpost.com/software/safe-contact',
     },
     {
       img: '/OutageML.png',
       title: 'OutageML',
-      description: 'APIC Energy Hackathon 2023',
+      description: 'An outage tracker app that uses machine learning to prioritize and display the whereabouts of power local outages.',
       link: 'https://github.com/owencooke/OutageML',
     },
   ];
