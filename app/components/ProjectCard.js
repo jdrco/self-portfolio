@@ -4,7 +4,7 @@ import Link from 'next/link';
 const ProjectCard = ({ project }) => {
   return (
     <Link href={project.link}>
-      <div className="w-full bg-white border border-gray-200 rounded-lg shadow dark:bg-neutral-800 dark:border-gray-700 overflow-hidden">
+      <div className="w-full bg-white border rounded-lg shadow dark:bg-neutral-800 overflow-hidden">
         <div className="relative pb-[47%] md:pb-[49%] m-2 md:m-3">
           <img
             src={project.img}
