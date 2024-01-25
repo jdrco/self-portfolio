@@ -13,13 +13,19 @@ const Projects = () => {
     {
       img: '/SafeContact.png',
       title: 'Safe Contact',
-      description: 'An automated device-tracking system to address safety concerns in isolated travel areas, providing SMS alerts, and location sharing for prompt responses.',
+      description: 'An automated device-tracking system to address safety concerns for those travelling in isolated travel areas, providing SMS alerts and location sharing.',
       link: 'https://devpost.com/software/safe-contact',
+    },
+    {
+      img: '/JOLL-E.png',
+      title: 'JOLL-E',
+      description: 'An RC car controlled using an infrared remote sensor + remote and programmed with Arduino and C/C++.',
+      link: 'https://github.com/HowToFailRobotics/AlbertaLoop-Competition',
     },
     {
       img: '/OutageML.png',
       title: 'OutageML',
-      description: 'An outage tracker app that uses machine learning to prioritize and display the whereabouts of power local outages.',
+      description: 'An outage tracker app that uses machine learning to prioritize and display the whereabouts of local power outages.',
       link: 'https://github.com/owencooke/OutageML',
     },
   ];
