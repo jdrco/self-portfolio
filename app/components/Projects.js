@@ -19,7 +19,7 @@ const Projects = () => {
     {
       img: '/JOLL-E.png',
       title: 'JOLL-E',
-      description: 'An RC car controlled using an infrared remote sensor + remote and programmed with Arduino and C/C++.',
+      description: 'An RC car controlled using an infrared remote sensor/remote and programmed with Arduino and C/C++.',
       link: 'https://github.com/HowToFailRobotics/AlbertaLoop-Competition',
     },
     {
