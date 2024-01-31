@@ -5,6 +5,12 @@ import { Github } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
+      img: '/JOLL-E.png',
+      title: 'JOLL-E',
+      description: 'An RC car controlled using an infrared remote sensor/remote and programmed with Arduino and C/C++.',
+      link: 'https://github.com/HowToFailRobotics/AlbertaLoop-Competition',
+    },
+    {
       img: '/MobilityMate.png',
       title: 'MobilityMate',
       description: 'An app that streamlines physiotherapy interactions, providing patients with an exercise-tracking system and AI voice assistant.',
@@ -15,12 +21,6 @@ const Projects = () => {
       title: 'Safe Contact',
       description: 'An automated device-tracking system to address safety concerns for those travelling in isolated travel areas, providing SMS alerts and location sharing.',
       link: 'https://devpost.com/software/safe-contact',
-    },
-    {
-      img: '/JOLL-E.png',
-      title: 'JOLL-E',
-      description: 'An RC car controlled using an infrared remote sensor/remote and programmed with Arduino and C/C++.',
-      link: 'https://github.com/HowToFailRobotics/AlbertaLoop-Competition',
     },
     {
       img: '/OutageML.png',
