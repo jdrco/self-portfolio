@@ -5,28 +5,32 @@ import { Github } from 'lucide-react';
 const Projects = () => {
   const projects = [
     {
-      img: '/JOLL-E.png',
-      title: 'JOLL-E',
-      description: 'An RC car controlled using an infrared remote sensor/remote and programmed with Arduino and C/C++.',
-      link: 'https://github.com/HowToFailRobotics/AlbertaLoop-Competition',
-    },
-    {
       img: '/MobilityMate.png',
       title: 'MobilityMate',
-      description: 'An app that streamlines physiotherapy interactions, providing patients with an exercise-tracking system and AI voice assistant.',
+      description:
+        'An app that streamlines physiotherapy interactions, providing patients with an exercise-tracking system and AI voice assistant.',
       link: 'https://devpost.com/software/mobility-mate-9fyp8v',
     },
     {
       img: '/SafeContact.png',
       title: 'Safe Contact',
-      description: 'An automated device-tracking system to address safety concerns for those travelling in isolated travel areas, providing SMS alerts and location sharing.',
+      description:
+        'An automated device-tracking system to address safety concerns for those travelling in isolated travel areas, providing SMS alerts and location sharing.',
       link: 'https://devpost.com/software/safe-contact',
     },
     {
       img: '/OutageML.png',
       title: 'OutageML',
-      description: 'An outage tracker app that uses machine learning to prioritize and display the whereabouts of local power outages.',
+      description:
+        'An outage tracker app that uses machine learning to prioritize and display the whereabouts of local power outages.',
       link: 'https://github.com/owencooke/OutageML',
+    },
+    {
+      img: '/JOLL-E.png',
+      title: 'JOLL-E',
+      description:
+        'An RC car controlled using an infrared remote sensor/remote and programmed with Arduino and C/C++.',
+      link: 'https://github.com/HowToFailRobotics/AlbertaLoop-Competition',
     },
   ];
 
@@ -45,8 +49,7 @@ const Projects = () => {
             >
               GitHub
             </a>
-            <Github size={14} className="ml-1" />
-            .
+            <Github size={14} className="ml-1" />.
           </span>
         </p>
       </div>

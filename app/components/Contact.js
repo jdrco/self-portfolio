@@ -3,7 +3,7 @@ import { Link } from 'lucide-react';
 const Contact = () => {
     return (
         <div className="flex flex-col md:flex-row gap-6 pt-6 pb-20">
-            <div className="md:w-1/3 flex">
+            <div className="md:w-1/3 flex font-semibold">
                 Contact
             </div>
             <div className="md:w-2/3 flex justify-between">
