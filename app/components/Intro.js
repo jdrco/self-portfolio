@@ -72,9 +72,9 @@ const Intro = () => {
       <div className="max-w-md md:w-2/3">
         <p>Hey, I&apos;m Jared 👋</p>
         <br />
-        <p>I&apos;m a 4th year software engineering co-op student studying at the University of Alberta.</p>
+        <p>Currently, I&apos;m a computer software engineering co-op student studying at the University of Alberta.</p>
         <br />
-        <p>Passionate about building impactful software and have a knack for good design. I am a continuous learner and am excited to contribute my skills to innovative projects.</p>
+        <p>I&apos;m a continuous learner with a wide range of interests from low-level programming to product design. I have a diverse skill set and I am eager to contribute my skills to innovative projects.</p>
         <br />
         Outside of engineering, I like playing basketball, chess, and hanging out with friends and family.
       </div>
