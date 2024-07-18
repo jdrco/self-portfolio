@@ -50,7 +50,7 @@ const Projects = () => {
           </h5>
           <p className="max-w-xl mt-3">
             A drum machine application for iPad OS. This was my submission for
-            the WWDC24 Swift Student Challenge run by Apple and was selected as a 2024 winner.
+            Apple&apos;s WWDC Swift Student Challenge and was selected as a 2024 winner.
           </p>
           <Link
             href="https://github.com/jdrco/Rhythm-WWDC24/blob/main/README.md"
